@@ -1,0 +1,29 @@
+# Render Blueprint: Dashboard → New → Blueprint → pick this repo.
+services:
+  - type: web
+    name: elora-bd-backend
+    runtime: node
+    plan: free
+    region: singapore
+    # devDependencies are needed to build (Nest CLI, Prisma CLI, TypeScript)
+    buildCommand: npm ci --include=dev && npm run build
+    # The free plan has no pre-deploy step, so migrations run on boot
+    startCommand: npx prisma migrate deploy && node dist/main
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_VERSION
+        value: 24.11.0
+      - key: NODE_ENV
+        value: production
+      - key: TRUST_PROXY
+        value: "true"
+      # Shop (vercel.app) and API (onrender.com) are different sites
+      - key: COOKIE_SAMESITE
+        value: none
+      - key: JWT_ACCESS_SECRET
+        generateValue: true
+      # Asked for in the dashboard when the Blueprint is created
+      - key: DATABASE_URL
+        sync: false
+      - key: CORS_ORIGINS
+        sync: false

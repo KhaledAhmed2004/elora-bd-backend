@@ -7,10 +7,19 @@ import type { CookieOptions, Request, Response } from 'express';
  */
 export const ADMIN_REFRESH_COOKIE = 'bd_admin_rt';
 
+/**
+ * 'lax' works when the shop and the API share a site (localhost, or
+ * shop.com + api.shop.com). Set COOKIE_SAMESITE=none when they are on
+ * unrelated domains, otherwise the browser never sends the cookie back.
+ */
+const sameSite = (): CookieOptions['sameSite'] =>
+  process.env.COOKIE_SAMESITE === 'none' ? 'none' : 'lax';
+
 const options = (): CookieOptions => ({
   httpOnly: true,
-  secure: process.env.NODE_ENV === 'production',
-  sameSite: 'lax',
+  // SameSite=None is only accepted by browsers on Secure cookies
+  secure: process.env.NODE_ENV === 'production' || sameSite() === 'none',
+  sameSite: sameSite(),
   // Sent only to the auth endpoints, never to the rest of the API
   path: '/api/admin/auth',
   maxAge: 30 * 24 * 60 * 60 * 1000,
