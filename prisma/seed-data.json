@@ -1,0 +1,4216 @@
+{
+  "categories": [
+    {
+      "id": "cat-saree",
+      "name": "Saree",
+      "slug": "saree",
+      "image": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=400&q=80&auto=format&fit=crop",
+      "children": [
+        {
+          "id": "cat-saree-jamdani",
+          "name": "Jamdani",
+          "slug": "saree-jamdani",
+          "parentId": "cat-saree"
+        },
+        {
+          "id": "cat-saree-katan-banarasi",
+          "name": "Katan & Banarasi",
+          "slug": "saree-katan-banarasi",
+          "parentId": "cat-saree"
+        },
+        {
+          "id": "cat-saree-silk",
+          "name": "Silk",
+          "slug": "saree-silk",
+          "parentId": "cat-saree"
+        },
+        {
+          "id": "cat-saree-cotton",
+          "name": "Cotton",
+          "slug": "saree-cotton",
+          "parentId": "cat-saree"
+        }
+      ]
+    },
+    {
+      "id": "cat-salwar-kameez",
+      "name": "Salwar Kameez",
+      "slug": "salwar-kameez",
+      "image": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=400&q=80&auto=format&fit=crop",
+      "children": [
+        {
+          "id": "cat-salwar-kameez-three-piece",
+          "name": "Three Piece",
+          "slug": "salwar-kameez-three-piece",
+          "parentId": "cat-salwar-kameez"
+        },
+        {
+          "id": "cat-salwar-kameez-unstitched",
+          "name": "Unstitched",
+          "slug": "salwar-kameez-unstitched",
+          "parentId": "cat-salwar-kameez"
+        },
+        {
+          "id": "cat-salwar-kameez-party-wear",
+          "name": "Party Wear",
+          "slug": "salwar-kameez-party-wear",
+          "parentId": "cat-salwar-kameez"
+        }
+      ]
+    },
+    {
+      "id": "cat-kurti-tops",
+      "name": "Kurti & Tops",
+      "slug": "kurti-tops",
+      "image": "https://images.unsplash.com/photo-1583846783214-7229a91b20ed?w=400&q=80&auto=format&fit=crop",
+      "children": [
+        {
+          "id": "cat-kurti-tops-kurti",
+          "name": "Kurti",
+          "slug": "kurti-tops-kurti",
+          "parentId": "cat-kurti-tops"
+        },
+        {
+          "id": "cat-kurti-tops-tops-blouse",
+          "name": "Tops & Blouse",
+          "slug": "kurti-tops-tops-blouse",
+          "parentId": "cat-kurti-tops"
+        },
+        {
+          "id": "cat-kurti-tops-t-shirt",
+          "name": "T-Shirt",
+          "slug": "kurti-tops-t-shirt",
+          "parentId": "cat-kurti-tops"
+        }
+      ]
+    },
+    {
+      "id": "cat-dresses",
+      "name": "Dresses & Gowns",
+      "slug": "dresses",
+      "image": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=400&q=80&auto=format&fit=crop",
+      "children": [
+        {
+          "id": "cat-dresses-maxi-dress",
+          "name": "Maxi Dress",
+          "slug": "dresses-maxi-dress",
+          "parentId": "cat-dresses"
+        },
+        {
+          "id": "cat-dresses-midi-dress",
+          "name": "Midi Dress",
+          "slug": "dresses-midi-dress",
+          "parentId": "cat-dresses"
+        },
+        {
+          "id": "cat-dresses-party-gown",
+          "name": "Party Gown",
+          "slug": "dresses-party-gown",
+          "parentId": "cat-dresses"
+        }
+      ]
+    },
+    {
+      "id": "cat-bottoms",
+      "name": "Bottoms",
+      "slug": "bottoms",
+      "image": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=400&q=80&auto=format&fit=crop"
+    },
+    {
+      "id": "cat-winter",
+      "name": "Winter Wear",
+      "slug": "winter",
+      "image": "https://images.unsplash.com/photo-1608748010899-18f300247112?w=400&q=80&auto=format&fit=crop"
+    },
+    {
+      "id": "cat-bags",
+      "name": "Bags",
+      "slug": "bags",
+      "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=400&q=80&auto=format&fit=crop"
+    },
+    {
+      "id": "cat-footwear",
+      "name": "Footwear",
+      "slug": "footwear",
+      "image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=400&q=80&auto=format&fit=crop"
+    },
+    {
+      "id": "cat-jewelry",
+      "name": "Jewelry",
+      "slug": "jewelry",
+      "image": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=400&q=80&auto=format&fit=crop",
+      "children": [
+        {
+          "id": "cat-jewelry-necklace",
+          "name": "Necklace",
+          "slug": "jewelry-necklace",
+          "parentId": "cat-jewelry"
+        },
+        {
+          "id": "cat-jewelry-ring",
+          "name": "Ring",
+          "slug": "jewelry-ring",
+          "parentId": "cat-jewelry"
+        },
+        {
+          "id": "cat-jewelry-bracelet",
+          "name": "Bracelet",
+          "slug": "jewelry-bracelet",
+          "parentId": "cat-jewelry"
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": "p-001",
+      "name": "Dhakai Jamdani Silk Saree",
+      "slug": "dhakai-jamdani-silk-saree",
+      "description": "Premium quality fabric, comfortable for Bangladesh's climate. Cash on Delivery available nationwide. Check the product on delivery before you pay. Easy 7-day exchange policy.",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=800&q=80&auto=format&fit=crop",
+          "alt": "Dhakai Jamdani Silk Saree - Front view"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?w=800&q=80&auto=format&fit=crop",
+          "alt": "Dhakai Jamdani Silk Saree - Side profile"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?w=800&q=80&auto=format&fit=crop",
+          "alt": "Dhakai Jamdani Silk Saree - Detail shot"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=800&q=80&auto=format&fit=crop",
+          "alt": "Dhakai Jamdani Silk Saree - Back view"
+        }
+      ],
+      "price": 4800,
+      "comparePrice": 5500,
+      "stock": 12,
+      "category": {
+        "id": "cat-saree",
+        "name": "Saree",
+        "slug": "saree"
+      },
+      "brand": {
+        "id": "brand-tant-ghor",
+        "name": "Tant Ghor",
+        "slug": "tant-ghor"
+      },
+      "rating": 4.9,
+      "reviewCount": 64,
+      "isFeatured": true,
+      "isNew": false,
+      "createdAt": "2026-10-01T00:00:00.000Z",
+      "costPrice": 2780
+    },
+    {
+      "id": "p-002",
+      "name": "Katan Banarasi Bridal Saree",
+      "slug": "katan-banarasi-bridal-saree",
+      "description": "Premium quality fabric, comfortable for Bangladesh's climate. Cash on Delivery available nationwide. Check the product on delivery before you pay. Easy 7-day exchange policy.",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?w=800&q=80&auto=format&fit=crop",
+          "alt": "Katan Banarasi Bridal Saree - Front view"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?w=800&q=80&auto=format&fit=crop",
+          "alt": "Katan Banarasi Bridal Saree - Side profile"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=800&q=80&auto=format&fit=crop",
+          "alt": "Katan Banarasi Bridal Saree - Detail shot"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1596783074918-c84cb06531ca?w=800&q=80&auto=format&fit=crop",
+          "alt": "Katan Banarasi Bridal Saree - Back view"
+        }
+      ],
+      "price": 12500,
+      "comparePrice": 14500,
+      "stock": 6,
+      "category": {
+        "id": "cat-saree",
+        "name": "Saree",
+        "slug": "saree"
+      },
+      "brand": {
+        "id": "brand-tant-ghor",
+        "name": "Tant Ghor",
+        "slug": "tant-ghor"
+      },
+      "rating": 4.8,
+      "reviewCount": 31,
+      "isFeatured": true,
+      "isNew": false,
+      "createdAt": "2026-10-02T00:00:00.000Z",
+      "costPrice": 7250
+    },
+    {
+      "id": "p-003",
+      "name": "Embroidered White Three Piece",
+      "slug": "embroidered-white-three-piece",
+      "description": "Premium quality fabric, comfortable for Bangladesh's climate. Cash on Delivery available nationwide. Check the product on delivery before you pay. Easy 7-day exchange policy.",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=800&q=80&auto=format&fit=crop",
+          "alt": "Embroidered White Three Piece - Front view"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=800&q=80&auto=format&fit=crop",
+          "alt": "Embroidered White Three Piece - Side profile"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=800&q=80&auto=format&fit=crop",
+          "alt": "Embroidered White Three Piece - Detail shot"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?w=800&q=80&auto=format&fit=crop",
+          "alt": "Embroidered White Three Piece - Back view"
+        }
+      ],
+      "price": 3250,
+      "comparePrice": 3900,
+      "stock": 27,
+      "category": {
+        "id": "cat-salwar-kameez",
+        "name": "Salwar Kameez",
+        "slug": "salwar-kameez"
+      },
+      "brand": null,
+      "variants": [
+        {
+          "id": "p-003-v1",
+          "sku": "P-003-M",
+          "attributes": {
+            "size": "M"
+          },
+          "price": 3250,
+          "comparePrice": 3900,
+          "stock": 8
+        },
+        {
+          "id": "p-003-v2",
+          "sku": "P-003-L",
+          "attributes": {
+            "size": "L"
+          },
+          "price": 3250,
+          "comparePrice": 3900,
+          "stock": 9
+        },
+        {
+          "id": "p-003-v3",
+          "sku": "P-003-XL",
+          "attributes": {
+            "size": "XL"
+          },
+          "price": 3250,
+          "comparePrice": 3900,
+          "stock": 10
+        },
+        {
+          "id": "p-003-v4",
+          "sku": "P-003-XXL",
+          "attributes": {
+            "size": "XXL"
+          },
+          "price": 3250,
+          "comparePrice": 3900,
+          "stock": 0
+        }
+      ],
+      "rating": 4.7,
+      "reviewCount": 42,
+      "isFeatured": true,
+      "isNew": true,
+      "createdAt": "2026-10-03T00:00:00.000Z",
+      "costPrice": 1880
+    },
+    {
+      "id": "p-004",
+      "name": "Georgette Anarkali Three Piece",
+      "slug": "georgette-anarkali-three-piece",
+      "description": "Premium quality fabric, comfortable for Bangladesh's climate. Cash on Delivery available nationwide. Check the product on delivery before you pay. Easy 7-day exchange policy.",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?w=800&q=80&auto=format&fit=crop",
+          "alt": "Georgette Anarkali Three Piece - Front view"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=800&q=80&auto=format&fit=crop",
+          "alt": "Georgette Anarkali Three Piece - Side profile"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=800&q=80&auto=format&fit=crop",
+          "alt": "Georgette Anarkali Three Piece - Detail shot"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1596783074918-c84cb06531ca?w=800&q=80&auto=format&fit=crop",
+          "alt": "Georgette Anarkali Three Piece - Back view"
+        }
+      ],
+      "price": 4450,
+      "comparePrice": 5200,
+      "stock": 108,
+      "category": {
+        "id": "cat-salwar-kameez",
+        "name": "Salwar Kameez",
+        "slug": "salwar-kameez"
+      },
+      "brand": null,
+      "variants": [
+        {
+          "id": "p-004-v1",
+          "sku": "P-004-MAROON-M",
+          "attributes": {
+            "color": "Maroon",
+            "size": "M"
+          },
+          "price": 4450,
+          "comparePrice": 5200,
+          "stock": 8
+        },
+        {
+          "id": "p-004-v2",
+          "sku": "P-004-MAROON-L",
+          "attributes": {
+            "color": "Maroon",
+            "size": "L"
+          },
+          "price": 4450,
+          "comparePrice": 5200,
+          "stock": 9
+        },
+        {
+          "id": "p-004-v3",
+          "sku": "P-004-MAROON-XL",
+          "attributes": {
+            "color": "Maroon",
+            "size": "XL"
+          },
+          "price": 4450,
+          "comparePrice": 5200,
+          "stock": 10
+        },
+        {
+          "id": "p-004-v4",
+          "sku": "P-004-MAROON-XXL",
+          "attributes": {
+            "color": "Maroon",
+            "size": "XXL"
+          },
+          "price": 4450,
+          "comparePrice": 5200,
+          "stock": 11
+        },
+        {
+          "id": "p-004-v5",
+          "sku": "P-004-NAVY-M",
+          "attributes": {
+            "color": "Navy",
+            "size": "M"
+          },
+          "price": 4450,
+          "comparePrice": 5200,
+          "stock": 12
+        },
+        {
+          "id": "p-004-v6",
+          "sku": "P-004-NAVY-L",
+          "attributes": {
+            "color": "Navy",
+            "size": "L"
+          },
+          "price": 4450,
+          "comparePrice": 5200,
+          "stock": 8
+        },
+        {
+          "id": "p-004-v7",
+          "sku": "P-004-NAVY-XL",
+          "attributes": {
+            "color": "Navy",
+            "size": "XL"
+          },
+          "price": 4450,
+          "comparePrice": 5200,
+          "stock": 9
+        },
+        {
+          "id": "p-004-v8",
+          "sku": "P-004-NAVY-XXL",
+          "attributes": {
+            "color": "Navy",
+            "size": "XXL"
+          },
+          "price": 4450,
+          "comparePrice": 5200,
+          "stock": 10
+        },
+        {
+          "id": "p-004-v9",
+          "sku": "P-004-MINT-M",
+          "attributes": {
+            "color": "Mint",
+            "size": "M"
+          },
+          "price": 4450,
+          "comparePrice": 5200,
+          "stock": 11
+        },
+        {
+          "id": "p-004-v10",
+          "sku": "P-004-MINT-L",
+          "attributes": {
+            "color": "Mint",
+            "size": "L"
+          },
+          "price": 4450,
+          "comparePrice": 5200,
+          "stock": 12
+        },
+        {
+          "id": "p-004-v11",
+          "sku": "P-004-MINT-XL",
+          "attributes": {
+            "color": "Mint",
+            "size": "XL"
+          },
+          "price": 4450,
+          "comparePrice": 5200,
+          "stock": 8
+        },
+        {
+          "id": "p-004-v12",
+          "sku": "P-004-MINT-XXL",
+          "attributes": {
+            "color": "Mint",
+            "size": "XXL"
+          },
+          "price": 4450,
+          "comparePrice": 5200,
+          "stock": 0
+        }
+      ],
+      "rating": 4.5,
+      "reviewCount": 12,
+      "isFeatured": false,
+      "isNew": true,
+      "createdAt": "2026-10-04T00:00:00.000Z",
+      "costPrice": 2580
+    },
+    {
+      "id": "p-005",
+      "name": "Cotton Long Kameez Set",
+      "slug": "cotton-long-kameez-set",
+      "description": "Premium quality fabric, comfortable for Bangladesh's climate. Cash on Delivery available nationwide. Check the product on delivery before you pay. Easy 7-day exchange policy.",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1596783074918-c84cb06531ca?w=800&q=80&auto=format&fit=crop",
+          "alt": "Cotton Long Kameez Set - Front view"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=800&q=80&auto=format&fit=crop",
+          "alt": "Cotton Long Kameez Set - Side profile"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?w=800&q=80&auto=format&fit=crop",
+          "alt": "Cotton Long Kameez Set - Detail shot"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=800&q=80&auto=format&fit=crop",
+          "alt": "Cotton Long Kameez Set - Back view"
+        }
+      ],
+      "price": 2150,
+      "comparePrice": null,
+      "stock": 67,
+      "category": {
+        "id": "cat-salwar-kameez",
+        "name": "Salwar Kameez",
+        "slug": "salwar-kameez"
+      },
+      "brand": null,
+      "variants": [
+        {
+          "id": "p-005-v1",
+          "sku": "P-005-BLACK-M",
+          "attributes": {
+            "color": "Black",
+            "size": "M"
+          },
+          "price": 2150,
+          "comparePrice": null,
+          "stock": 8
+        },
+        {
+          "id": "p-005-v2",
+          "sku": "P-005-BLACK-L",
+          "attributes": {
+            "color": "Black",
+            "size": "L"
+          },
+          "price": 2150,
+          "comparePrice": null,
+          "stock": 9
+        },
+        {
+          "id": "p-005-v3",
+          "sku": "P-005-BLACK-XL",
+          "attributes": {
+            "color": "Black",
+            "size": "XL"
+          },
+          "price": 2150,
+          "comparePrice": null,
+          "stock": 10
+        },
+        {
+          "id": "p-005-v4",
+          "sku": "P-005-BLACK-XXL",
+          "attributes": {
+            "color": "Black",
+            "size": "XXL"
+          },
+          "price": 2150,
+          "comparePrice": null,
+          "stock": 11
+        },
+        {
+          "id": "p-005-v5",
+          "sku": "P-005-PEACH-M",
+          "attributes": {
+            "color": "Peach",
+            "size": "M"
+          },
+          "price": 2150,
+          "comparePrice": null,
+          "stock": 12
+        },
+        {
+          "id": "p-005-v6",
+          "sku": "P-005-PEACH-L",
+          "attributes": {
+            "color": "Peach",
+            "size": "L"
+          },
+          "price": 2150,
+          "comparePrice": null,
+          "stock": 8
+        },
+        {
+          "id": "p-005-v7",
+          "sku": "P-005-PEACH-XL",
+          "attributes": {
+            "color": "Peach",
+            "size": "XL"
+          },
+          "price": 2150,
+          "comparePrice": null,
+          "stock": 9
+        },
+        {
+          "id": "p-005-v8",
+          "sku": "P-005-PEACH-XXL",
+          "attributes": {
+            "color": "Peach",
+            "size": "XXL"
+          },
+          "price": 2150,
+          "comparePrice": null,
+          "stock": 0
+        }
+      ],
+      "rating": 4.6,
+      "reviewCount": 28,
+      "isFeatured": false,
+      "isNew": false,
+      "createdAt": "2026-10-05T00:00:00.000Z",
+      "costPrice": 1250
+    },
+    {
+      "id": "p-006",
+      "name": "Classic White Office Blouse",
+      "slug": "classic-white-office-blouse",
+      "description": "Premium quality fabric, comfortable for Bangladesh's climate. Cash on Delivery available nationwide. Check the product on delivery before you pay. Easy 7-day exchange policy.",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1583846783214-7229a91b20ed?w=800&q=80&auto=format&fit=crop",
+          "alt": "Classic White Office Blouse - Front view"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1554568218-0f1715e72254?w=800&q=80&auto=format&fit=crop",
+          "alt": "Classic White Office Blouse - Side profile"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1581044777550-4cfa60707c03?w=800&q=80&auto=format&fit=crop",
+          "alt": "Classic White Office Blouse - Detail shot"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=800&q=80&auto=format&fit=crop",
+          "alt": "Classic White Office Blouse - Back view"
+        }
+      ],
+      "price": 1250,
+      "comparePrice": 1550,
+      "stock": 38,
+      "category": {
+        "id": "cat-kurti-tops",
+        "name": "Kurti & Tops",
+        "slug": "kurti-tops"
+      },
+      "brand": null,
+      "variants": [
+        {
+          "id": "p-006-v1",
+          "sku": "P-006-S",
+          "attributes": {
+            "size": "S"
+          },
+          "price": 1250,
+          "comparePrice": 1550,
+          "stock": 8
+        },
+        {
+          "id": "p-006-v2",
+          "sku": "P-006-M",
+          "attributes": {
+            "size": "M"
+          },
+          "price": 1250,
+          "comparePrice": 1550,
+          "stock": 9
+        },
+        {
+          "id": "p-006-v3",
+          "sku": "P-006-L",
+          "attributes": {
+            "size": "L"
+          },
+          "price": 1250,
+          "comparePrice": 1550,
+          "stock": 10
+        },
+        {
+          "id": "p-006-v4",
+          "sku": "P-006-XL",
+          "attributes": {
+            "size": "XL"
+          },
+          "price": 1250,
+          "comparePrice": 1550,
+          "stock": 11
+        },
+        {
+          "id": "p-006-v5",
+          "sku": "P-006-XXL",
+          "attributes": {
+            "size": "XXL"
+          },
+          "price": 1250,
+          "comparePrice": 1550,
+          "stock": 0
+        }
+      ],
+      "rating": 4.5,
+      "reviewCount": 37,
+      "isFeatured": false,
+      "isNew": false,
+      "createdAt": "2026-10-06T00:00:00.000Z",
+      "costPrice": 730
+    },
+    {
+      "id": "p-007",
+      "name": "Soft Knit Poncho Top",
+      "slug": "soft-knit-poncho-top",
+      "description": "Premium quality fabric, comfortable for Bangladesh's climate. Cash on Delivery available nationwide. Check the product on delivery before you pay. Easy 7-day exchange policy.",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=800&q=80&auto=format&fit=crop",
+          "alt": "Soft Knit Poncho Top - Front view"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1581044777550-4cfa60707c03?w=800&q=80&auto=format&fit=crop",
+          "alt": "Soft Knit Poncho Top - Side profile"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=800&q=80&auto=format&fit=crop",
+          "alt": "Soft Knit Poncho Top - Detail shot"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1583846783214-7229a91b20ed?w=800&q=80&auto=format&fit=crop",
+          "alt": "Soft Knit Poncho Top - Back view"
+        }
+      ],
+      "price": 1350,
+      "comparePrice": null,
+      "stock": 27,
+      "category": {
+        "id": "cat-kurti-tops",
+        "name": "Kurti & Tops",
+        "slug": "kurti-tops"
+      },
+      "brand": null,
+      "variants": [
+        {
+          "id": "p-007-v1",
+          "sku": "P-007-S",
+          "attributes": {
+            "size": "S"
+          },
+          "price": 1350,
+          "comparePrice": null,
+          "stock": 8
+        },
+        {
+          "id": "p-007-v2",
+          "sku": "P-007-M",
+          "attributes": {
+            "size": "M"
+          },
+          "price": 1350,
+          "comparePrice": null,
+          "stock": 9
+        },
+        {
+          "id": "p-007-v3",
+          "sku": "P-007-L",
+          "attributes": {
+            "size": "L"
+          },
+          "price": 1350,
+          "comparePrice": null,
+          "stock": 10
+        },
+        {
+          "id": "p-007-v4",
+          "sku": "P-007-XL",
+          "attributes": {
+            "size": "XL"
+          },
+          "price": 1350,
+          "comparePrice": null,
+          "stock": 0
+        }
+      ],
+      "rating": 4.5,
+      "reviewCount": 12,
+      "isFeatured": false,
+      "isNew": true,
+      "createdAt": "2026-10-07T00:00:00.000Z",
+      "costPrice": 780
+    },
+    {
+      "id": "p-008",
+      "name": "Graphic Print Cotton T-Shirt",
+      "slug": "graphic-print-cotton-t-shirt",
+      "description": "Premium quality fabric, comfortable for Bangladesh's climate. Cash on Delivery available nationwide. Check the product on delivery before you pay. Easy 7-day exchange policy.",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1554568218-0f1715e72254?w=800&q=80&auto=format&fit=crop",
+          "alt": "Graphic Print Cotton T-Shirt - Front view"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=800&q=80&auto=format&fit=crop",
+          "alt": "Graphic Print Cotton T-Shirt - Side profile"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1583846783214-7229a91b20ed?w=800&q=80&auto=format&fit=crop",
+          "alt": "Graphic Print Cotton T-Shirt - Detail shot"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=800&q=80&auto=format&fit=crop",
+          "alt": "Graphic Print Cotton T-Shirt - Back view"
+        }
+      ],
+      "price": 590,
+      "comparePrice": 750,
+      "stock": 38,
+      "category": {
+        "id": "cat-kurti-tops",
+        "name": "Kurti & Tops",
+        "slug": "kurti-tops"
+      },
+      "brand": null,
+      "variants": [
+        {
+          "id": "p-008-v1",
+          "sku": "P-008-S",
+          "attributes": {
+            "size": "S"
+          },
+          "price": 590,
+          "comparePrice": 750,
+          "stock": 8
+        },
+        {
+          "id": "p-008-v2",
+          "sku": "P-008-M",
+          "attributes": {
+            "size": "M"
+          },
+          "price": 590,
+          "comparePrice": 750,
+          "stock": 9
+        },
+        {
+          "id": "p-008-v3",
+          "sku": "P-008-L",
+          "attributes": {
+            "size": "L"
+          },
+          "price": 590,
+          "comparePrice": 750,
+          "stock": 10
+        },
+        {
+          "id": "p-008-v4",
+          "sku": "P-008-XL",
+          "attributes": {
+            "size": "XL"
+          },
+          "price": 590,
+          "comparePrice": 750,
+          "stock": 11
+        },
+        {
+          "id": "p-008-v5",
+          "sku": "P-008-XXL",
+          "attributes": {
+            "size": "XXL"
+          },
+          "price": 590,
+          "comparePrice": 750,
+          "stock": 0
+        }
+      ],
+      "rating": 4.4,
+      "reviewCount": 96,
+      "isFeatured": false,
+      "isNew": false,
+      "createdAt": "2026-10-08T00:00:00.000Z",
+      "costPrice": 340
+    },
+    {
+      "id": "p-009",
+      "name": "Puff Sleeve Ruffle Top",
+      "slug": "puff-sleeve-ruffle-top",
+      "description": "Premium quality fabric, comfortable for Bangladesh's climate. Cash on Delivery available nationwide. Check the product on delivery before you pay. Easy 7-day exchange policy.",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1581044777550-4cfa60707c03?w=800&q=80&auto=format&fit=crop",
+          "alt": "Puff Sleeve Ruffle Top - Front view"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1583846783214-7229a91b20ed?w=800&q=80&auto=format&fit=crop",
+          "alt": "Puff Sleeve Ruffle Top - Side profile"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=800&q=80&auto=format&fit=crop",
+          "alt": "Puff Sleeve Ruffle Top - Detail shot"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1554568218-0f1715e72254?w=800&q=80&auto=format&fit=crop",
+          "alt": "Puff Sleeve Ruffle Top - Back view"
+        }
+      ],
+      "price": 1650,
+      "comparePrice": null,
+      "stock": 17,
+      "category": {
+        "id": "cat-kurti-tops",
+        "name": "Kurti & Tops",
+        "slug": "kurti-tops"
+      },
+      "brand": null,
+      "variants": [
+        {
+          "id": "p-009-v1",
+          "sku": "P-009-S",
+          "attributes": {
+            "size": "S"
+          },
+          "price": 1650,
+          "comparePrice": null,
+          "stock": 8
+        },
+        {
+          "id": "p-009-v2",
+          "sku": "P-009-M",
+          "attributes": {
+            "size": "M"
+          },
+          "price": 1650,
+          "comparePrice": null,
+          "stock": 9
+        },
+        {
+          "id": "p-009-v3",
+          "sku": "P-009-L",
+          "attributes": {
+            "size": "L"
+          },
+          "price": 1650,
+          "comparePrice": null,
+          "stock": 0
+        }
+      ],
+      "rating": 4.5,
+      "reviewCount": 12,
+      "isFeatured": true,
+      "isNew": false,
+      "createdAt": "2026-10-09T00:00:00.000Z",
+      "costPrice": 960
+    },
+    {
+      "id": "p-010",
+      "name": "Floral Print Summer Dress",
+      "slug": "floral-print-summer-dress",
+      "description": "Premium quality fabric, comfortable for Bangladesh's climate. Cash on Delivery available nationwide. Check the product on delivery before you pay. Easy 7-day exchange policy.",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=800&q=80&auto=format&fit=crop",
+          "alt": "Floral Print Summer Dress - Front view"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?w=800&q=80&auto=format&fit=crop",
+          "alt": "Floral Print Summer Dress - Side profile"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1591369822096-ffd140ec948f?w=800&q=80&auto=format&fit=crop",
+          "alt": "Floral Print Summer Dress - Detail shot"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=800&q=80&auto=format&fit=crop",
+          "alt": "Floral Print Summer Dress - Back view"
+        }
+      ],
+      "price": 2250,
+      "comparePrice": 2800,
+      "stock": 38,
+      "category": {
+        "id": "cat-dresses",
+        "name": "Dresses & Gowns",
+        "slug": "dresses"
+      },
+      "brand": null,
+      "variants": [
+        {
+          "id": "p-010-v1",
+          "sku": "P-010-S",
+          "attributes": {
+            "size": "S"
+          },
+          "price": 2250,
+          "comparePrice": 2800,
+          "stock": 8
+        },
+        {
+          "id": "p-010-v2",
+          "sku": "P-010-M",
+          "attributes": {
+            "size": "M"
+          },
+          "price": 2250,
+          "comparePrice": 2800,
+          "stock": 9
+        },
+        {
+          "id": "p-010-v3",
+          "sku": "P-010-L",
+          "attributes": {
+            "size": "L"
+          },
+          "price": 2250,
+          "comparePrice": 2800,
+          "stock": 10
+        },
+        {
+          "id": "p-010-v4",
+          "sku": "P-010-XL",
+          "attributes": {
+            "size": "XL"
+          },
+          "price": 2250,
+          "comparePrice": 2800,
+          "stock": 11
+        },
+        {
+          "id": "p-010-v5",
+          "sku": "P-010-XXL",
+          "attributes": {
+            "size": "XXL"
+          },
+          "price": 2250,
+          "comparePrice": 2800,
+          "stock": 0
+        }
+      ],
+      "rating": 4.7,
+      "reviewCount": 53,
+      "isFeatured": true,
+      "isNew": false,
+      "createdAt": "2026-10-10T00:00:00.000Z",
+      "costPrice": 1310
+    },
+    {
+      "id": "p-011",
+      "name": "Sky Blue Wrap Maxi Dress",
+      "slug": "sky-blue-wrap-maxi-dress",
+      "description": "Premium quality fabric, comfortable for Bangladesh's climate. Cash on Delivery available nationwide. Check the product on delivery before you pay. Easy 7-day exchange policy.",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1539008835657-9e8e9680c956?w=800&q=80&auto=format&fit=crop",
+          "alt": "Sky Blue Wrap Maxi Dress - Front view"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1591369822096-ffd140ec948f?w=800&q=80&auto=format&fit=crop",
+          "alt": "Sky Blue Wrap Maxi Dress - Side profile"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=800&q=80&auto=format&fit=crop",
+          "alt": "Sky Blue Wrap Maxi Dress - Detail shot"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=800&q=80&auto=format&fit=crop",
+          "alt": "Sky Blue Wrap Maxi Dress - Back view"
+        }
+      ],
+      "price": 2650,
+      "comparePrice": null,
+      "stock": 38,
+      "category": {
+        "id": "cat-dresses",
+        "name": "Dresses & Gowns",
+        "slug": "dresses"
+      },
+      "brand": null,
+      "variants": [
+        {
+          "id": "p-011-v1",
+          "sku": "P-011-S",
+          "attributes": {
+            "size": "S"
+          },
+          "price": 2650,
+          "comparePrice": null,
+          "stock": 8
+        },
+        {
+          "id": "p-011-v2",
+          "sku": "P-011-M",
+          "attributes": {
+            "size": "M"
+          },
+          "price": 2650,
+          "comparePrice": null,
+          "stock": 9
+        },
+        {
+          "id": "p-011-v3",
+          "sku": "P-011-L",
+          "attributes": {
+            "size": "L"
+          },
+          "price": 2650,
+          "comparePrice": null,
+          "stock": 10
+        },
+        {
+          "id": "p-011-v4",
+          "sku": "P-011-XL",
+          "attributes": {
+            "size": "XL"
+          },
+          "price": 2650,
+          "comparePrice": null,
+          "stock": 11
+        },
+        {
+          "id": "p-011-v5",
+          "sku": "P-011-XXL",
+          "attributes": {
+            "size": "XXL"
+          },
+          "price": 2650,
+          "comparePrice": null,
+          "stock": 0
+        }
+      ],
+      "rating": 4.5,
+      "reviewCount": 12,
+      "isFeatured": false,
+      "isNew": true,
+      "createdAt": "2026-10-11T00:00:00.000Z",
+      "costPrice": 1540
+    },
+    {
+      "id": "p-012",
+      "name": "Red Belted Midi Dress",
+      "slug": "red-belted-midi-dress",
+      "description": "Premium quality fabric, comfortable for Bangladesh's climate. Cash on Delivery available nationwide. Check the product on delivery before you pay. Easy 7-day exchange policy.",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=800&q=80&auto=format&fit=crop",
+          "alt": "Red Belted Midi Dress - Front view"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=800&q=80&auto=format&fit=crop",
+          "alt": "Red Belted Midi Dress - Side profile"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=800&q=80&auto=format&fit=crop",
+          "alt": "Red Belted Midi Dress - Detail shot"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1612336307429-8a898d10e223?w=800&q=80&auto=format&fit=crop",
+          "alt": "Red Belted Midi Dress - Back view"
+        }
+      ],
+      "price": 2450,
+      "comparePrice": 2990,
+      "stock": 38,
+      "category": {
+        "id": "cat-dresses",
+        "name": "Dresses & Gowns",
+        "slug": "dresses"
+      },
+      "brand": null,
+      "variants": [
+        {
+          "id": "p-012-v1",
+          "sku": "P-012-S",
+          "attributes": {
+            "size": "S"
+          },
+          "price": 2450,
+          "comparePrice": 2990,
+          "stock": 8
+        },
+        {
+          "id": "p-012-v2",
+          "sku": "P-012-M",
+          "attributes": {
+            "size": "M"
+          },
+          "price": 2450,
+          "comparePrice": 2990,
+          "stock": 9
+        },
+        {
+          "id": "p-012-v3",
+          "sku": "P-012-L",
+          "attributes": {
+            "size": "L"
+          },
+          "price": 2450,
+          "comparePrice": 2990,
+          "stock": 10
+        },
+        {
+          "id": "p-012-v4",
+          "sku": "P-012-XL",
+          "attributes": {
+            "size": "XL"
+          },
+          "price": 2450,
+          "comparePrice": 2990,
+          "stock": 11
+        },
+        {
+          "id": "p-012-v5",
+          "sku": "P-012-XXL",
+          "attributes": {
+            "size": "XXL"
+          },
+          "price": 2450,
+          "comparePrice": 2990,
+          "stock": 0
+        }
+      ],
+      "rating": 4.5,
+      "reviewCount": 12,
+      "isFeatured": true,
+      "isNew": false,
+      "createdAt": "2026-10-12T00:00:00.000Z",
+      "costPrice": 1420
+    },
+    {
+      "id": "p-013",
+      "name": "Maroon Corduroy Shirt Dress",
+      "slug": "maroon-corduroy-shirt-dress",
+      "description": "Premium quality fabric, comfortable for Bangladesh's climate. Cash on Delivery available nationwide. Check the product on delivery before you pay. Easy 7-day exchange policy.",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?w=800&q=80&auto=format&fit=crop",
+          "alt": "Maroon Corduroy Shirt Dress - Front view"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=800&q=80&auto=format&fit=crop",
+          "alt": "Maroon Corduroy Shirt Dress - Side profile"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1612336307429-8a898d10e223?w=800&q=80&auto=format&fit=crop",
+          "alt": "Maroon Corduroy Shirt Dress - Detail shot"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=800&q=80&auto=format&fit=crop",
+          "alt": "Maroon Corduroy Shirt Dress - Back view"
+        }
+      ],
+      "price": 2100,
+      "comparePrice": null,
+      "stock": 38,
+      "category": {
+        "id": "cat-dresses",
+        "name": "Dresses & Gowns",
+        "slug": "dresses"
+      },
+      "brand": null,
+      "variants": [
+        {
+          "id": "p-013-v1",
+          "sku": "P-013-S",
+          "attributes": {
+            "size": "S"
+          },
+          "price": 2100,
+          "comparePrice": null,
+          "stock": 8
+        },
+        {
+          "id": "p-013-v2",
+          "sku": "P-013-M",
+          "attributes": {
+            "size": "M"
+          },
+          "price": 2100,
+          "comparePrice": null,
+          "stock": 9
+        },
+        {
+          "id": "p-013-v3",
+          "sku": "P-013-L",
+          "attributes": {
+            "size": "L"
+          },
+          "price": 2100,
+          "comparePrice": null,
+          "stock": 10
+        },
+        {
+          "id": "p-013-v4",
+          "sku": "P-013-XL",
+          "attributes": {
+            "size": "XL"
+          },
+          "price": 2100,
+          "comparePrice": null,
+          "stock": 11
+        },
+        {
+          "id": "p-013-v5",
+          "sku": "P-013-XXL",
+          "attributes": {
+            "size": "XXL"
+          },
+          "price": 2100,
+          "comparePrice": null,
+          "stock": 0
+        }
+      ],
+      "rating": 4.5,
+      "reviewCount": 12,
+      "isFeatured": false,
+      "isNew": false,
+      "createdAt": "2026-10-13T00:00:00.000Z",
+      "costPrice": 1220
+    },
+    {
+      "id": "p-014",
+      "name": "Denim Button Front Dress",
+      "slug": "denim-button-front-dress",
+      "description": "Premium quality fabric, comfortable for Bangladesh's climate. Cash on Delivery available nationwide. Check the product on delivery before you pay. Easy 7-day exchange policy.",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1591369822096-ffd140ec948f?w=800&q=80&auto=format&fit=crop",
+          "alt": "Denim Button Front Dress - Front view"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1612336307429-8a898d10e223?w=800&q=80&auto=format&fit=crop",
+          "alt": "Denim Button Front Dress - Side profile"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=800&q=80&auto=format&fit=crop",
+          "alt": "Denim Button Front Dress - Detail shot"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1539008835657-9e8e9680c956?w=800&q=80&auto=format&fit=crop",
+          "alt": "Denim Button Front Dress - Back view"
+        }
+      ],
+      "price": 1950,
+      "comparePrice": 2400,
+      "stock": 38,
+      "category": {
+        "id": "cat-dresses",
+        "name": "Dresses & Gowns",
+        "slug": "dresses"
+      },
+      "brand": null,
+      "variants": [
+        {
+          "id": "p-014-v1",
+          "sku": "P-014-S",
+          "attributes": {
+            "size": "S"
+          },
+          "price": 1950,
+          "comparePrice": 2400,
+          "stock": 8
+        },
+        {
+          "id": "p-014-v2",
+          "sku": "P-014-M",
+          "attributes": {
+            "size": "M"
+          },
+          "price": 1950,
+          "comparePrice": 2400,
+          "stock": 9
+        },
+        {
+          "id": "p-014-v3",
+          "sku": "P-014-L",
+          "attributes": {
+            "size": "L"
+          },
+          "price": 1950,
+          "comparePrice": 2400,
+          "stock": 10
+        },
+        {
+          "id": "p-014-v4",
+          "sku": "P-014-XL",
+          "attributes": {
+            "size": "XL"
+          },
+          "price": 1950,
+          "comparePrice": 2400,
+          "stock": 11
+        },
+        {
+          "id": "p-014-v5",
+          "sku": "P-014-XXL",
+          "attributes": {
+            "size": "XXL"
+          },
+          "price": 1950,
+          "comparePrice": 2400,
+          "stock": 0
+        }
+      ],
+      "rating": 4.5,
+      "reviewCount": 12,
+      "isFeatured": false,
+      "isNew": true,
+      "createdAt": "2026-10-14T00:00:00.000Z",
+      "costPrice": 1130
+    },
+    {
+      "id": "p-015",
+      "name": "Red Flowy Party Gown",
+      "slug": "red-flowy-party-gown",
+      "description": "Premium quality fabric, comfortable for Bangladesh's climate. Cash on Delivery available nationwide. Check the product on delivery before you pay. Easy 7-day exchange policy.",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=800&q=80&auto=format&fit=crop",
+          "alt": "Red Flowy Party Gown - Front view"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=800&q=80&auto=format&fit=crop",
+          "alt": "Red Flowy Party Gown - Side profile"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1539008835657-9e8e9680c956?w=800&q=80&auto=format&fit=crop",
+          "alt": "Red Flowy Party Gown - Detail shot"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=800&q=80&auto=format&fit=crop",
+          "alt": "Red Flowy Party Gown - Back view"
+        }
+      ],
+      "price": 5900,
+      "comparePrice": 7200,
+      "stock": 27,
+      "category": {
+        "id": "cat-dresses",
+        "name": "Dresses & Gowns",
+        "slug": "dresses"
+      },
+      "brand": null,
+      "variants": [
+        {
+          "id": "p-015-v1",
+          "sku": "P-015-S",
+          "attributes": {
+            "size": "S"
+          },
+          "price": 5900,
+          "comparePrice": 7200,
+          "stock": 8
+        },
+        {
+          "id": "p-015-v2",
+          "sku": "P-015-M",
+          "attributes": {
+            "size": "M"
+          },
+          "price": 5900,
+          "comparePrice": 7200,
+          "stock": 9
+        },
+        {
+          "id": "p-015-v3",
+          "sku": "P-015-L",
+          "attributes": {
+            "size": "L"
+          },
+          "price": 5900,
+          "comparePrice": 7200,
+          "stock": 10
+        },
+        {
+          "id": "p-015-v4",
+          "sku": "P-015-XL",
+          "attributes": {
+            "size": "XL"
+          },
+          "price": 5900,
+          "comparePrice": 7200,
+          "stock": 0
+        }
+      ],
+      "rating": 4.9,
+      "reviewCount": 19,
+      "isFeatured": true,
+      "isNew": false,
+      "createdAt": "2026-10-15T00:00:00.000Z",
+      "costPrice": 3420
+    },
+    {
+      "id": "p-016",
+      "name": "Velvet Off-Shoulder Gown",
+      "slug": "velvet-off-shoulder-gown",
+      "description": "Premium quality fabric, comfortable for Bangladesh's climate. Cash on Delivery available nationwide. Check the product on delivery before you pay. Easy 7-day exchange policy.",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=800&q=80&auto=format&fit=crop",
+          "alt": "Velvet Off-Shoulder Gown - Front view"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1539008835657-9e8e9680c956?w=800&q=80&auto=format&fit=crop",
+          "alt": "Velvet Off-Shoulder Gown - Side profile"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=800&q=80&auto=format&fit=crop",
+          "alt": "Velvet Off-Shoulder Gown - Detail shot"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?w=800&q=80&auto=format&fit=crop",
+          "alt": "Velvet Off-Shoulder Gown - Back view"
+        }
+      ],
+      "price": 4750,
+      "comparePrice": null,
+      "stock": 17,
+      "category": {
+        "id": "cat-dresses",
+        "name": "Dresses & Gowns",
+        "slug": "dresses"
+      },
+      "brand": null,
+      "variants": [
+        {
+          "id": "p-016-v1",
+          "sku": "P-016-S",
+          "attributes": {
+            "size": "S"
+          },
+          "price": 4750,
+          "comparePrice": null,
+          "stock": 8
+        },
+        {
+          "id": "p-016-v2",
+          "sku": "P-016-M",
+          "attributes": {
+            "size": "M"
+          },
+          "price": 4750,
+          "comparePrice": null,
+          "stock": 9
+        },
+        {
+          "id": "p-016-v3",
+          "sku": "P-016-L",
+          "attributes": {
+            "size": "L"
+          },
+          "price": 4750,
+          "comparePrice": null,
+          "stock": 0
+        }
+      ],
+      "rating": 4.5,
+      "reviewCount": 12,
+      "isFeatured": false,
+      "isNew": false,
+      "createdAt": "2026-10-16T00:00:00.000Z",
+      "costPrice": 2760
+    },
+    {
+      "id": "p-017",
+      "name": "Red Bodycon Party Dress",
+      "slug": "red-bodycon-party-dress",
+      "description": "Premium quality fabric, comfortable for Bangladesh's climate. Cash on Delivery available nationwide. Check the product on delivery before you pay. Easy 7-day exchange policy.",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1612336307429-8a898d10e223?w=800&q=80&auto=format&fit=crop",
+          "alt": "Red Bodycon Party Dress - Front view"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=800&q=80&auto=format&fit=crop",
+          "alt": "Red Bodycon Party Dress - Side profile"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?w=800&q=80&auto=format&fit=crop",
+          "alt": "Red Bodycon Party Dress - Detail shot"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1591369822096-ffd140ec948f?w=800&q=80&auto=format&fit=crop",
+          "alt": "Red Bodycon Party Dress - Back view"
+        }
+      ],
+      "price": 3200,
+      "comparePrice": 3800,
+      "stock": 17,
+      "category": {
+        "id": "cat-dresses",
+        "name": "Dresses & Gowns",
+        "slug": "dresses"
+      },
+      "brand": null,
+      "variants": [
+        {
+          "id": "p-017-v1",
+          "sku": "P-017-S",
+          "attributes": {
+            "size": "S"
+          },
+          "price": 3200,
+          "comparePrice": 3800,
+          "stock": 8
+        },
+        {
+          "id": "p-017-v2",
+          "sku": "P-017-M",
+          "attributes": {
+            "size": "M"
+          },
+          "price": 3200,
+          "comparePrice": 3800,
+          "stock": 9
+        },
+        {
+          "id": "p-017-v3",
+          "sku": "P-017-L",
+          "attributes": {
+            "size": "L"
+          },
+          "price": 3200,
+          "comparePrice": 3800,
+          "stock": 0
+        }
+      ],
+      "rating": 4.5,
+      "reviewCount": 12,
+      "isFeatured": false,
+      "isNew": true,
+      "createdAt": "2026-10-17T00:00:00.000Z",
+      "costPrice": 1860
+    },
+    {
+      "id": "p-018",
+      "name": "Comfort Jogger Pants",
+      "slug": "comfort-jogger-pants",
+      "description": "Premium quality fabric, comfortable for Bangladesh's climate. Cash on Delivery available nationwide. Check the product on delivery before you pay. Easy 7-day exchange policy.",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=800&q=80&auto=format&fit=crop",
+          "alt": "Comfort Jogger Pants - Front view"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1551163943-3f6a855d1153?w=800&q=80&auto=format&fit=crop",
+          "alt": "Comfort Jogger Pants - Side profile"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=800&q=80&auto=format&fit=crop",
+          "alt": "Comfort Jogger Pants - Detail shot"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=800&q=80&auto=format&fit=crop",
+          "alt": "Comfort Jogger Pants - Back view"
+        }
+      ],
+      "price": 990,
+      "comparePrice": 1290,
+      "stock": 27,
+      "category": {
+        "id": "cat-bottoms",
+        "name": "Bottoms",
+        "slug": "bottoms"
+      },
+      "brand": null,
+      "variants": [
+        {
+          "id": "p-018-v1",
+          "sku": "P-018-S",
+          "attributes": {
+            "size": "S"
+          },
+          "price": 990,
+          "comparePrice": 1290,
+          "stock": 8
+        },
+        {
+          "id": "p-018-v2",
+          "sku": "P-018-M",
+          "attributes": {
+            "size": "M"
+          },
+          "price": 990,
+          "comparePrice": 1290,
+          "stock": 9
+        },
+        {
+          "id": "p-018-v3",
+          "sku": "P-018-L",
+          "attributes": {
+            "size": "L"
+          },
+          "price": 990,
+          "comparePrice": 1290,
+          "stock": 10
+        },
+        {
+          "id": "p-018-v4",
+          "sku": "P-018-XL",
+          "attributes": {
+            "size": "XL"
+          },
+          "price": 990,
+          "comparePrice": 1290,
+          "stock": 0
+        }
+      ],
+      "rating": 4.5,
+      "reviewCount": 12,
+      "isFeatured": false,
+      "isNew": false,
+      "createdAt": "2026-10-18T00:00:00.000Z",
+      "costPrice": 570
+    },
+    {
+      "id": "p-019",
+      "name": "White Pleated Mini Skirt",
+      "slug": "white-pleated-mini-skirt",
+      "description": "Premium quality fabric, comfortable for Bangladesh's climate. Cash on Delivery available nationwide. Check the product on delivery before you pay. Easy 7-day exchange policy.",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1582142306909-195724d33ffc?w=800&q=80&auto=format&fit=crop",
+          "alt": "White Pleated Mini Skirt - Front view"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=800&q=80&auto=format&fit=crop",
+          "alt": "White Pleated Mini Skirt - Side profile"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=800&q=80&auto=format&fit=crop",
+          "alt": "White Pleated Mini Skirt - Detail shot"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=800&q=80&auto=format&fit=crop",
+          "alt": "White Pleated Mini Skirt - Back view"
+        }
+      ],
+      "price": 1150,
+      "comparePrice": null,
+      "stock": 17,
+      "category": {
+        "id": "cat-bottoms",
+        "name": "Bottoms",
+        "slug": "bottoms"
+      },
+      "brand": null,
+      "variants": [
+        {
+          "id": "p-019-v1",
+          "sku": "P-019-S",
+          "attributes": {
+            "size": "S"
+          },
+          "price": 1150,
+          "comparePrice": null,
+          "stock": 8
+        },
+        {
+          "id": "p-019-v2",
+          "sku": "P-019-M",
+          "attributes": {
+            "size": "M"
+          },
+          "price": 1150,
+          "comparePrice": null,
+          "stock": 9
+        },
+        {
+          "id": "p-019-v3",
+          "sku": "P-019-L",
+          "attributes": {
+            "size": "L"
+          },
+          "price": 1150,
+          "comparePrice": null,
+          "stock": 0
+        }
+      ],
+      "rating": 4.5,
+      "reviewCount": 12,
+      "isFeatured": false,
+      "isNew": true,
+      "createdAt": "2026-10-19T00:00:00.000Z",
+      "costPrice": 670
+    },
+    {
+      "id": "p-020",
+      "name": "Flowy Pleated Midi Skirt",
+      "slug": "flowy-pleated-midi-skirt",
+      "description": "Premium quality fabric, comfortable for Bangladesh's climate. Cash on Delivery available nationwide. Check the product on delivery before you pay. Easy 7-day exchange policy.",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1551163943-3f6a855d1153?w=800&q=80&auto=format&fit=crop",
+          "alt": "Flowy Pleated Midi Skirt - Front view"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=800&q=80&auto=format&fit=crop",
+          "alt": "Flowy Pleated Midi Skirt - Side profile"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=800&q=80&auto=format&fit=crop",
+          "alt": "Flowy Pleated Midi Skirt - Detail shot"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1582142306909-195724d33ffc?w=800&q=80&auto=format&fit=crop",
+          "alt": "Flowy Pleated Midi Skirt - Back view"
+        }
+      ],
+      "price": 1450,
+      "comparePrice": null,
+      "stock": 27,
+      "category": {
+        "id": "cat-bottoms",
+        "name": "Bottoms",
+        "slug": "bottoms"
+      },
+      "brand": null,
+      "variants": [
+        {
+          "id": "p-020-v1",
+          "sku": "P-020-S",
+          "attributes": {
+            "size": "S"
+          },
+          "price": 1450,
+          "comparePrice": null,
+          "stock": 8
+        },
+        {
+          "id": "p-020-v2",
+          "sku": "P-020-M",
+          "attributes": {
+            "size": "M"
+          },
+          "price": 1450,
+          "comparePrice": null,
+          "stock": 9
+        },
+        {
+          "id": "p-020-v3",
+          "sku": "P-020-L",
+          "attributes": {
+            "size": "L"
+          },
+          "price": 1450,
+          "comparePrice": null,
+          "stock": 10
+        },
+        {
+          "id": "p-020-v4",
+          "sku": "P-020-XL",
+          "attributes": {
+            "size": "XL"
+          },
+          "price": 1450,
+          "comparePrice": null,
+          "stock": 0
+        }
+      ],
+      "rating": 4.5,
+      "reviewCount": 12,
+      "isFeatured": false,
+      "isNew": false,
+      "createdAt": "2026-10-20T00:00:00.000Z",
+      "costPrice": 840
+    },
+    {
+      "id": "p-021",
+      "name": "Striped Wide Leg Pants",
+      "slug": "striped-wide-leg-pants",
+      "description": "Premium quality fabric, comfortable for Bangladesh's climate. Cash on Delivery available nationwide. Check the product on delivery before you pay. Easy 7-day exchange policy.",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=800&q=80&auto=format&fit=crop",
+          "alt": "Striped Wide Leg Pants - Front view"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=800&q=80&auto=format&fit=crop",
+          "alt": "Striped Wide Leg Pants - Side profile"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1582142306909-195724d33ffc?w=800&q=80&auto=format&fit=crop",
+          "alt": "Striped Wide Leg Pants - Detail shot"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1551163943-3f6a855d1153?w=800&q=80&auto=format&fit=crop",
+          "alt": "Striped Wide Leg Pants - Back view"
+        }
+      ],
+      "price": 1550,
+      "comparePrice": 1850,
+      "stock": 27,
+      "category": {
+        "id": "cat-bottoms",
+        "name": "Bottoms",
+        "slug": "bottoms"
+      },
+      "brand": null,
+      "variants": [
+        {
+          "id": "p-021-v1",
+          "sku": "P-021-S",
+          "attributes": {
+            "size": "S"
+          },
+          "price": 1550,
+          "comparePrice": 1850,
+          "stock": 8
+        },
+        {
+          "id": "p-021-v2",
+          "sku": "P-021-M",
+          "attributes": {
+            "size": "M"
+          },
+          "price": 1550,
+          "comparePrice": 1850,
+          "stock": 9
+        },
+        {
+          "id": "p-021-v3",
+          "sku": "P-021-L",
+          "attributes": {
+            "size": "L"
+          },
+          "price": 1550,
+          "comparePrice": 1850,
+          "stock": 10
+        },
+        {
+          "id": "p-021-v4",
+          "sku": "P-021-XL",
+          "attributes": {
+            "size": "XL"
+          },
+          "price": 1550,
+          "comparePrice": 1850,
+          "stock": 0
+        }
+      ],
+      "rating": 4.5,
+      "reviewCount": 12,
+      "isFeatured": false,
+      "isNew": false,
+      "createdAt": "2026-10-21T00:00:00.000Z",
+      "costPrice": 900
+    },
+    {
+      "id": "p-022",
+      "name": "Yellow Two-Piece Tracksuit",
+      "slug": "yellow-two-piece-tracksuit",
+      "description": "Premium quality fabric, comfortable for Bangladesh's climate. Cash on Delivery available nationwide. Check the product on delivery before you pay. Easy 7-day exchange policy.",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=800&q=80&auto=format&fit=crop",
+          "alt": "Yellow Two-Piece Tracksuit - Front view"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1582142306909-195724d33ffc?w=800&q=80&auto=format&fit=crop",
+          "alt": "Yellow Two-Piece Tracksuit - Side profile"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1551163943-3f6a855d1153?w=800&q=80&auto=format&fit=crop",
+          "alt": "Yellow Two-Piece Tracksuit - Detail shot"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=800&q=80&auto=format&fit=crop",
+          "alt": "Yellow Two-Piece Tracksuit - Back view"
+        }
+      ],
+      "price": 2200,
+      "comparePrice": null,
+      "stock": 17,
+      "category": {
+        "id": "cat-bottoms",
+        "name": "Bottoms",
+        "slug": "bottoms"
+      },
+      "brand": null,
+      "variants": [
+        {
+          "id": "p-022-v1",
+          "sku": "P-022-S",
+          "attributes": {
+            "size": "S"
+          },
+          "price": 2200,
+          "comparePrice": null,
+          "stock": 8
+        },
+        {
+          "id": "p-022-v2",
+          "sku": "P-022-M",
+          "attributes": {
+            "size": "M"
+          },
+          "price": 2200,
+          "comparePrice": null,
+          "stock": 9
+        },
+        {
+          "id": "p-022-v3",
+          "sku": "P-022-L",
+          "attributes": {
+            "size": "L"
+          },
+          "price": 2200,
+          "comparePrice": null,
+          "stock": 0
+        }
+      ],
+      "rating": 4.5,
+      "reviewCount": 12,
+      "isFeatured": false,
+      "isNew": false,
+      "createdAt": "2026-10-22T00:00:00.000Z",
+      "costPrice": 1280
+    },
+    {
+      "id": "p-023",
+      "name": "Camel Wool Long Coat",
+      "slug": "camel-wool-long-coat",
+      "description": "Premium quality fabric, comfortable for Bangladesh's climate. Cash on Delivery available nationwide. Check the product on delivery before you pay. Easy 7-day exchange policy.",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1608748010899-18f300247112?w=800&q=80&auto=format&fit=crop",
+          "alt": "Camel Wool Long Coat - Front view"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1621184455862-c163dfb30e0f?w=800&q=80&auto=format&fit=crop",
+          "alt": "Camel Wool Long Coat - Side profile"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=800&q=80&auto=format&fit=crop",
+          "alt": "Camel Wool Long Coat - Detail shot"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1617019114583-affb34d1b3cd?w=800&q=80&auto=format&fit=crop",
+          "alt": "Camel Wool Long Coat - Back view"
+        }
+      ],
+      "price": 5450,
+      "comparePrice": 6500,
+      "stock": 27,
+      "category": {
+        "id": "cat-winter",
+        "name": "Winter Wear",
+        "slug": "winter"
+      },
+      "brand": null,
+      "variants": [
+        {
+          "id": "p-023-v1",
+          "sku": "P-023-S",
+          "attributes": {
+            "size": "S"
+          },
+          "price": 5450,
+          "comparePrice": 6500,
+          "stock": 8
+        },
+        {
+          "id": "p-023-v2",
+          "sku": "P-023-M",
+          "attributes": {
+            "size": "M"
+          },
+          "price": 5450,
+          "comparePrice": 6500,
+          "stock": 9
+        },
+        {
+          "id": "p-023-v3",
+          "sku": "P-023-L",
+          "attributes": {
+            "size": "L"
+          },
+          "price": 5450,
+          "comparePrice": 6500,
+          "stock": 10
+        },
+        {
+          "id": "p-023-v4",
+          "sku": "P-023-XL",
+          "attributes": {
+            "size": "XL"
+          },
+          "price": 5450,
+          "comparePrice": 6500,
+          "stock": 0
+        }
+      ],
+      "rating": 4.5,
+      "reviewCount": 12,
+      "isFeatured": true,
+      "isNew": true,
+      "createdAt": "2026-10-23T00:00:00.000Z",
+      "costPrice": 3160
+    },
+    {
+      "id": "p-024",
+      "name": "Classic White Trench Coat",
+      "slug": "classic-white-trench-coat",
+      "description": "Premium quality fabric, comfortable for Bangladesh's climate. Cash on Delivery available nationwide. Check the product on delivery before you pay. Easy 7-day exchange policy.",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1617019114583-affb34d1b3cd?w=800&q=80&auto=format&fit=crop",
+          "alt": "Classic White Trench Coat - Front view"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=800&q=80&auto=format&fit=crop",
+          "alt": "Classic White Trench Coat - Side profile"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1608748010899-18f300247112?w=800&q=80&auto=format&fit=crop",
+          "alt": "Classic White Trench Coat - Detail shot"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1621184455862-c163dfb30e0f?w=800&q=80&auto=format&fit=crop",
+          "alt": "Classic White Trench Coat - Back view"
+        }
+      ],
+      "price": 4900,
+      "comparePrice": null,
+      "stock": 27,
+      "category": {
+        "id": "cat-winter",
+        "name": "Winter Wear",
+        "slug": "winter"
+      },
+      "brand": null,
+      "variants": [
+        {
+          "id": "p-024-v1",
+          "sku": "P-024-S",
+          "attributes": {
+            "size": "S"
+          },
+          "price": 4900,
+          "comparePrice": null,
+          "stock": 8
+        },
+        {
+          "id": "p-024-v2",
+          "sku": "P-024-M",
+          "attributes": {
+            "size": "M"
+          },
+          "price": 4900,
+          "comparePrice": null,
+          "stock": 9
+        },
+        {
+          "id": "p-024-v3",
+          "sku": "P-024-L",
+          "attributes": {
+            "size": "L"
+          },
+          "price": 4900,
+          "comparePrice": null,
+          "stock": 10
+        },
+        {
+          "id": "p-024-v4",
+          "sku": "P-024-XL",
+          "attributes": {
+            "size": "XL"
+          },
+          "price": 4900,
+          "comparePrice": null,
+          "stock": 0
+        }
+      ],
+      "rating": 4.5,
+      "reviewCount": 12,
+      "isFeatured": false,
+      "isNew": false,
+      "createdAt": "2026-10-24T00:00:00.000Z",
+      "costPrice": 2840
+    },
+    {
+      "id": "p-025",
+      "name": "Cropped Denim Jacket",
+      "slug": "cropped-denim-jacket",
+      "description": "Premium quality fabric, comfortable for Bangladesh's climate. Cash on Delivery available nationwide. Check the product on delivery before you pay. Easy 7-day exchange policy.",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1621184455862-c163dfb30e0f?w=800&q=80&auto=format&fit=crop",
+          "alt": "Cropped Denim Jacket - Front view"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1608748010899-18f300247112?w=800&q=80&auto=format&fit=crop",
+          "alt": "Cropped Denim Jacket - Side profile"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1617019114583-affb34d1b3cd?w=800&q=80&auto=format&fit=crop",
+          "alt": "Cropped Denim Jacket - Detail shot"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=800&q=80&auto=format&fit=crop",
+          "alt": "Cropped Denim Jacket - Back view"
+        }
+      ],
+      "price": 2350,
+      "comparePrice": 2800,
+      "stock": 17,
+      "category": {
+        "id": "cat-winter",
+        "name": "Winter Wear",
+        "slug": "winter"
+      },
+      "brand": null,
+      "variants": [
+        {
+          "id": "p-025-v1",
+          "sku": "P-025-S",
+          "attributes": {
+            "size": "S"
+          },
+          "price": 2350,
+          "comparePrice": 2800,
+          "stock": 8
+        },
+        {
+          "id": "p-025-v2",
+          "sku": "P-025-M",
+          "attributes": {
+            "size": "M"
+          },
+          "price": 2350,
+          "comparePrice": 2800,
+          "stock": 9
+        },
+        {
+          "id": "p-025-v3",
+          "sku": "P-025-L",
+          "attributes": {
+            "size": "L"
+          },
+          "price": 2350,
+          "comparePrice": 2800,
+          "stock": 0
+        }
+      ],
+      "rating": 4.5,
+      "reviewCount": 12,
+      "isFeatured": false,
+      "isNew": false,
+      "createdAt": "2026-10-25T00:00:00.000Z",
+      "costPrice": 1360
+    },
+    {
+      "id": "p-026",
+      "name": "Plaid Wool Overcoat",
+      "slug": "plaid-wool-overcoat",
+      "description": "Premium quality fabric, comfortable for Bangladesh's climate. Cash on Delivery available nationwide. Check the product on delivery before you pay. Easy 7-day exchange policy.",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=800&q=80&auto=format&fit=crop",
+          "alt": "Plaid Wool Overcoat - Front view"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1617019114583-affb34d1b3cd?w=800&q=80&auto=format&fit=crop",
+          "alt": "Plaid Wool Overcoat - Side profile"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1621184455862-c163dfb30e0f?w=800&q=80&auto=format&fit=crop",
+          "alt": "Plaid Wool Overcoat - Detail shot"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1608748010899-18f300247112?w=800&q=80&auto=format&fit=crop",
+          "alt": "Plaid Wool Overcoat - Back view"
+        }
+      ],
+      "price": 4200,
+      "comparePrice": null,
+      "stock": 27,
+      "category": {
+        "id": "cat-winter",
+        "name": "Winter Wear",
+        "slug": "winter"
+      },
+      "brand": null,
+      "variants": [
+        {
+          "id": "p-026-v1",
+          "sku": "P-026-S",
+          "attributes": {
+            "size": "S"
+          },
+          "price": 4200,
+          "comparePrice": null,
+          "stock": 8
+        },
+        {
+          "id": "p-026-v2",
+          "sku": "P-026-M",
+          "attributes": {
+            "size": "M"
+          },
+          "price": 4200,
+          "comparePrice": null,
+          "stock": 9
+        },
+        {
+          "id": "p-026-v3",
+          "sku": "P-026-L",
+          "attributes": {
+            "size": "L"
+          },
+          "price": 4200,
+          "comparePrice": null,
+          "stock": 10
+        },
+        {
+          "id": "p-026-v4",
+          "sku": "P-026-XL",
+          "attributes": {
+            "size": "XL"
+          },
+          "price": 4200,
+          "comparePrice": null,
+          "stock": 0
+        }
+      ],
+      "rating": 4.5,
+      "reviewCount": 12,
+      "isFeatured": false,
+      "isNew": false,
+      "createdAt": "2026-10-26T00:00:00.000Z",
+      "costPrice": 2440
+    },
+    {
+      "id": "p-027",
+      "name": "Red Leather Top Handle Bag",
+      "slug": "red-leather-top-handle-bag",
+      "description": "Premium quality fabric, comfortable for Bangladesh's climate. Cash on Delivery available nationwide. Check the product on delivery before you pay. Easy 7-day exchange policy.",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=800&q=80&auto=format&fit=crop",
+          "alt": "Red Leather Top Handle Bag - Front view"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=800&q=80&auto=format&fit=crop",
+          "alt": "Red Leather Top Handle Bag - Side profile"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=800&q=80&auto=format&fit=crop",
+          "alt": "Red Leather Top Handle Bag - Detail shot"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?w=800&q=80&auto=format&fit=crop",
+          "alt": "Red Leather Top Handle Bag - Back view"
+        }
+      ],
+      "price": 3450,
+      "comparePrice": 4200,
+      "stock": 14,
+      "category": {
+        "id": "cat-bags",
+        "name": "Bags",
+        "slug": "bags"
+      },
+      "brand": null,
+      "rating": 4.8,
+      "reviewCount": 27,
+      "isFeatured": true,
+      "isNew": false,
+      "createdAt": "2026-10-27T00:00:00.000Z",
+      "costPrice": 2000
+    },
+    {
+      "id": "p-028",
+      "name": "Wicker Basket Handbag",
+      "slug": "wicker-basket-handbag",
+      "description": "Premium quality fabric, comfortable for Bangladesh's climate. Cash on Delivery available nationwide. Check the product on delivery before you pay. Easy 7-day exchange policy.",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=800&q=80&auto=format&fit=crop",
+          "alt": "Wicker Basket Handbag - Front view"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=800&q=80&auto=format&fit=crop",
+          "alt": "Wicker Basket Handbag - Side profile"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?w=800&q=80&auto=format&fit=crop",
+          "alt": "Wicker Basket Handbag - Detail shot"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=800&q=80&auto=format&fit=crop",
+          "alt": "Wicker Basket Handbag - Back view"
+        }
+      ],
+      "price": 2650,
+      "comparePrice": null,
+      "stock": 9,
+      "category": {
+        "id": "cat-bags",
+        "name": "Bags",
+        "slug": "bags"
+      },
+      "brand": null,
+      "rating": 4.5,
+      "reviewCount": 12,
+      "isFeatured": false,
+      "isNew": true,
+      "createdAt": "2026-10-28T00:00:00.000Z",
+      "costPrice": 1540
+    },
+    {
+      "id": "p-029",
+      "name": "Vintage Leather Backpack",
+      "slug": "vintage-leather-backpack",
+      "description": "Premium quality fabric, comfortable for Bangladesh's climate. Cash on Delivery available nationwide. Check the product on delivery before you pay. Easy 7-day exchange policy.",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?w=800&q=80&auto=format&fit=crop",
+          "alt": "Vintage Leather Backpack - Front view"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=800&q=80&auto=format&fit=crop",
+          "alt": "Vintage Leather Backpack - Side profile"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=800&q=80&auto=format&fit=crop",
+          "alt": "Vintage Leather Backpack - Detail shot"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=800&q=80&auto=format&fit=crop",
+          "alt": "Vintage Leather Backpack - Back view"
+        }
+      ],
+      "price": 4250,
+      "comparePrice": null,
+      "stock": 0,
+      "category": {
+        "id": "cat-bags",
+        "name": "Bags",
+        "slug": "bags"
+      },
+      "brand": null,
+      "rating": 4.5,
+      "reviewCount": 12,
+      "isFeatured": false,
+      "isNew": false,
+      "createdAt": "2026-10-29T00:00:00.000Z",
+      "costPrice": 2470
+    },
+    {
+      "id": "p-030",
+      "name": "Navy Suede Block Pumps",
+      "slug": "navy-suede-block-pumps",
+      "description": "Premium quality fabric, comfortable for Bangladesh's climate. Cash on Delivery available nationwide. Check the product on delivery before you pay. Easy 7-day exchange policy.",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1515347619252-60a4bf4fff4f?w=800&q=80&auto=format&fit=crop",
+          "alt": "Navy Suede Block Pumps - Front view"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=800&q=80&auto=format&fit=crop",
+          "alt": "Navy Suede Block Pumps - Side profile"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1535043934128-cf0b28d52f95?w=800&q=80&auto=format&fit=crop",
+          "alt": "Navy Suede Block Pumps - Detail shot"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=800&q=80&auto=format&fit=crop",
+          "alt": "Navy Suede Block Pumps - Back view"
+        }
+      ],
+      "price": 2450,
+      "comparePrice": 2900,
+      "stock": 38,
+      "category": {
+        "id": "cat-footwear",
+        "name": "Footwear",
+        "slug": "footwear"
+      },
+      "brand": null,
+      "variants": [
+        {
+          "id": "p-030-v1",
+          "sku": "P-030-36",
+          "attributes": {
+            "size": "36"
+          },
+          "price": 2450,
+          "comparePrice": 2900,
+          "stock": 8
+        },
+        {
+          "id": "p-030-v2",
+          "sku": "P-030-37",
+          "attributes": {
+            "size": "37"
+          },
+          "price": 2450,
+          "comparePrice": 2900,
+          "stock": 9
+        },
+        {
+          "id": "p-030-v3",
+          "sku": "P-030-38",
+          "attributes": {
+            "size": "38"
+          },
+          "price": 2450,
+          "comparePrice": 2900,
+          "stock": 10
+        },
+        {
+          "id": "p-030-v4",
+          "sku": "P-030-39",
+          "attributes": {
+            "size": "39"
+          },
+          "price": 2450,
+          "comparePrice": 2900,
+          "stock": 11
+        },
+        {
+          "id": "p-030-v5",
+          "sku": "P-030-40",
+          "attributes": {
+            "size": "40"
+          },
+          "price": 2450,
+          "comparePrice": 2900,
+          "stock": 0
+        }
+      ],
+      "rating": 4.5,
+      "reviewCount": 12,
+      "isFeatured": true,
+      "isNew": false,
+      "createdAt": "2026-10-30T00:00:00.000Z",
+      "costPrice": 1420
+    },
+    {
+      "id": "p-031",
+      "name": "White Pointed Toe Heels",
+      "slug": "white-pointed-toe-heels",
+      "description": "Premium quality fabric, comfortable for Bangladesh's climate. Cash on Delivery available nationwide. Check the product on delivery before you pay. Easy 7-day exchange policy.",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1535043934128-cf0b28d52f95?w=800&q=80&auto=format&fit=crop",
+          "alt": "White Pointed Toe Heels - Front view"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1515347619252-60a4bf4fff4f?w=800&q=80&auto=format&fit=crop",
+          "alt": "White Pointed Toe Heels - Side profile"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=800&q=80&auto=format&fit=crop",
+          "alt": "White Pointed Toe Heels - Detail shot"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=800&q=80&auto=format&fit=crop",
+          "alt": "White Pointed Toe Heels - Back view"
+        }
+      ],
+      "price": 2250,
+      "comparePrice": null,
+      "stock": 38,
+      "category": {
+        "id": "cat-footwear",
+        "name": "Footwear",
+        "slug": "footwear"
+      },
+      "brand": null,
+      "variants": [
+        {
+          "id": "p-031-v1",
+          "sku": "P-031-36",
+          "attributes": {
+            "size": "36"
+          },
+          "price": 2250,
+          "comparePrice": null,
+          "stock": 8
+        },
+        {
+          "id": "p-031-v2",
+          "sku": "P-031-37",
+          "attributes": {
+            "size": "37"
+          },
+          "price": 2250,
+          "comparePrice": null,
+          "stock": 9
+        },
+        {
+          "id": "p-031-v3",
+          "sku": "P-031-38",
+          "attributes": {
+            "size": "38"
+          },
+          "price": 2250,
+          "comparePrice": null,
+          "stock": 10
+        },
+        {
+          "id": "p-031-v4",
+          "sku": "P-031-39",
+          "attributes": {
+            "size": "39"
+          },
+          "price": 2250,
+          "comparePrice": null,
+          "stock": 11
+        },
+        {
+          "id": "p-031-v5",
+          "sku": "P-031-40",
+          "attributes": {
+            "size": "40"
+          },
+          "price": 2250,
+          "comparePrice": null,
+          "stock": 0
+        }
+      ],
+      "rating": 4.6,
+      "reviewCount": 33,
+      "isFeatured": false,
+      "isNew": false,
+      "createdAt": "2026-10-31T00:00:00.000Z",
+      "costPrice": 1310
+    },
+    {
+      "id": "p-032",
+      "name": "Floral Print Stilettos",
+      "slug": "floral-print-stilettos",
+      "description": "Premium quality fabric, comfortable for Bangladesh's climate. Cash on Delivery available nationwide. Check the product on delivery before you pay. Easy 7-day exchange policy.",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=800&q=80&auto=format&fit=crop",
+          "alt": "Floral Print Stilettos - Front view"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1535043934128-cf0b28d52f95?w=800&q=80&auto=format&fit=crop",
+          "alt": "Floral Print Stilettos - Side profile"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=800&q=80&auto=format&fit=crop",
+          "alt": "Floral Print Stilettos - Detail shot"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1515347619252-60a4bf4fff4f?w=800&q=80&auto=format&fit=crop",
+          "alt": "Floral Print Stilettos - Back view"
+        }
+      ],
+      "price": 2850,
+      "comparePrice": null,
+      "stock": 38,
+      "category": {
+        "id": "cat-footwear",
+        "name": "Footwear",
+        "slug": "footwear"
+      },
+      "brand": null,
+      "variants": [
+        {
+          "id": "p-032-v1",
+          "sku": "P-032-36",
+          "attributes": {
+            "size": "36"
+          },
+          "price": 2850,
+          "comparePrice": null,
+          "stock": 8
+        },
+        {
+          "id": "p-032-v2",
+          "sku": "P-032-37",
+          "attributes": {
+            "size": "37"
+          },
+          "price": 2850,
+          "comparePrice": null,
+          "stock": 9
+        },
+        {
+          "id": "p-032-v3",
+          "sku": "P-032-38",
+          "attributes": {
+            "size": "38"
+          },
+          "price": 2850,
+          "comparePrice": null,
+          "stock": 10
+        },
+        {
+          "id": "p-032-v4",
+          "sku": "P-032-39",
+          "attributes": {
+            "size": "39"
+          },
+          "price": 2850,
+          "comparePrice": null,
+          "stock": 11
+        },
+        {
+          "id": "p-032-v5",
+          "sku": "P-032-40",
+          "attributes": {
+            "size": "40"
+          },
+          "price": 2850,
+          "comparePrice": null,
+          "stock": 0
+        }
+      ],
+      "rating": 4.5,
+      "reviewCount": 12,
+      "isFeatured": false,
+      "isNew": true,
+      "createdAt": "2026-11-01T00:00:00.000Z",
+      "costPrice": 1650
+    },
+    {
+      "id": "p-033",
+      "name": "Layered Gold Plated Necklace",
+      "slug": "layered-gold-plated-necklace",
+      "description": "Premium quality fabric, comfortable for Bangladesh's climate. Cash on Delivery available nationwide. Check the product on delivery before you pay. Easy 7-day exchange policy.",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1590548784585-643d2b9f2925?w=800&q=80&auto=format&fit=crop",
+          "alt": "Layered Gold Plated Necklace - Front view"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=800&q=80&auto=format&fit=crop",
+          "alt": "Layered Gold Plated Necklace - Side profile"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=800&q=80&auto=format&fit=crop",
+          "alt": "Layered Gold Plated Necklace - Detail shot"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1602751584552-8ba73aad10e1?w=800&q=80&auto=format&fit=crop",
+          "alt": "Layered Gold Plated Necklace - Back view"
+        }
+      ],
+      "price": 1290,
+      "comparePrice": 1650,
+      "stock": 30,
+      "category": {
+        "id": "cat-jewelry",
+        "name": "Jewelry",
+        "slug": "jewelry"
+      },
+      "brand": null,
+      "rating": 4.7,
+      "reviewCount": 71,
+      "isFeatured": true,
+      "isNew": false,
+      "createdAt": "2026-11-02T00:00:00.000Z",
+      "costPrice": 750
+    },
+    {
+      "id": "p-034",
+      "name": "Blue Stone Pendant Necklace",
+      "slug": "blue-stone-pendant-necklace",
+      "description": "Premium quality fabric, comfortable for Bangladesh's climate. Cash on Delivery available nationwide. Check the product on delivery before you pay. Easy 7-day exchange policy.",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=800&q=80&auto=format&fit=crop",
+          "alt": "Blue Stone Pendant Necklace - Front view"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1590548784585-643d2b9f2925?w=800&q=80&auto=format&fit=crop",
+          "alt": "Blue Stone Pendant Necklace - Side profile"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1602751584552-8ba73aad10e1?w=800&q=80&auto=format&fit=crop",
+          "alt": "Blue Stone Pendant Necklace - Detail shot"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=800&q=80&auto=format&fit=crop",
+          "alt": "Blue Stone Pendant Necklace - Back view"
+        }
+      ],
+      "price": 1850,
+      "comparePrice": null,
+      "stock": 18,
+      "category": {
+        "id": "cat-jewelry",
+        "name": "Jewelry",
+        "slug": "jewelry"
+      },
+      "brand": null,
+      "rating": 4.5,
+      "reviewCount": 12,
+      "isFeatured": false,
+      "isNew": false,
+      "createdAt": "2026-11-03T00:00:00.000Z",
+      "costPrice": 1070
+    },
+    {
+      "id": "p-035",
+      "name": "Flower Gemstone Ring",
+      "slug": "flower-gemstone-ring",
+      "description": "Premium quality fabric, comfortable for Bangladesh's climate. Cash on Delivery available nationwide. Check the product on delivery before you pay. Easy 7-day exchange policy.",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1602751584552-8ba73aad10e1?w=800&q=80&auto=format&fit=crop",
+          "alt": "Flower Gemstone Ring - Front view"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=800&q=80&auto=format&fit=crop",
+          "alt": "Flower Gemstone Ring - Side profile"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=800&q=80&auto=format&fit=crop",
+          "alt": "Flower Gemstone Ring - Detail shot"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1590548784585-643d2b9f2925?w=800&q=80&auto=format&fit=crop",
+          "alt": "Flower Gemstone Ring - Back view"
+        }
+      ],
+      "price": 1450,
+      "comparePrice": null,
+      "stock": 3,
+      "category": {
+        "id": "cat-jewelry",
+        "name": "Jewelry",
+        "slug": "jewelry"
+      },
+      "brand": null,
+      "rating": 4.5,
+      "reviewCount": 12,
+      "isFeatured": false,
+      "isNew": true,
+      "createdAt": "2026-11-04T00:00:00.000Z",
+      "costPrice": 840
+    },
+    {
+      "id": "p-036",
+      "name": "Rose Gold Chain Bracelet",
+      "slug": "rose-gold-chain-bracelet",
+      "description": "Premium quality fabric, comfortable for Bangladesh's climate. Cash on Delivery available nationwide. Check the product on delivery before you pay. Easy 7-day exchange policy.",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=800&q=80&auto=format&fit=crop",
+          "alt": "Rose Gold Chain Bracelet - Front view"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1602751584552-8ba73aad10e1?w=800&q=80&auto=format&fit=crop",
+          "alt": "Rose Gold Chain Bracelet - Side profile"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1590548784585-643d2b9f2925?w=800&q=80&auto=format&fit=crop",
+          "alt": "Rose Gold Chain Bracelet - Detail shot"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=800&q=80&auto=format&fit=crop",
+          "alt": "Rose Gold Chain Bracelet - Back view"
+        }
+      ],
+      "price": 990,
+      "comparePrice": 1250,
+      "stock": 40,
+      "category": {
+        "id": "cat-jewelry",
+        "name": "Jewelry",
+        "slug": "jewelry"
+      },
+      "brand": null,
+      "rating": 4.5,
+      "reviewCount": 12,
+      "isFeatured": false,
+      "isNew": false,
+      "createdAt": "2026-11-05T00:00:00.000Z",
+      "costPrice": 570
+    }
+  ],
+  "banners": [
+    {
+      "id": "b1",
+      "title": "Eid Collection 2026",
+      "subtitle": "New Sarees, Three Pieces and Party Gowns — up to 40% off",
+      "cta": "Shop Now",
+      "href": "/category/saree",
+      "image": "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?w=1600&q=80&auto=format&fit=crop"
+    },
+    {
+      "id": "b2",
+      "title": "Party Dress Festival",
+      "subtitle": "Special offers on gowns and western dresses",
+      "cta": "View Offers",
+      "href": "/category/dresses",
+      "image": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=1600&q=80&auto=format&fit=crop"
+    },
+    {
+      "id": "b3",
+      "title": "Free Delivery Nationwide",
+      "subtitle": "Free delivery on orders over ৳2,000",
+      "cta": "Start Shopping",
+      "href": "/products",
+      "image": "https://images.unsplash.com/photo-1483985988355-763728e1935b?w=1600&q=80&auto=format&fit=crop"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "p-001-r0",
+      "name": "Farzana Akter",
+      "rating": 5,
+      "text": "The fit is perfect. With Cash on Delivery I could check it before paying. Will buy again.",
+      "date": "2026-10-28T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-001"
+    },
+    {
+      "id": "p-001-r1",
+      "name": "Tahmina Rahman",
+      "rating": 4,
+      "text": "The colour is a little lighter than in the photo, but overall it's beautiful. Great value for the price.",
+      "date": "2026-10-22T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-001"
+    },
+    {
+      "id": "p-001-r2",
+      "name": "Sadia Islam",
+      "rating": 5,
+      "text": "I needed a size exchange and they sorted it within 3 days, no hassle. Thanks!",
+      "date": "2026-10-16T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-001"
+    },
+    {
+      "id": "p-001-r3",
+      "name": "Rumana Chowdhury",
+      "rating": 4,
+      "text": "The packaging was lovely, so I gave it as a gift. Good quality.",
+      "date": "2026-10-10T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-001"
+    },
+    {
+      "id": "p-002-r0",
+      "name": "Tahmina Rahman",
+      "rating": 4,
+      "text": "The colour is a little lighter than in the photo, but overall it's beautiful. Great value for the price.",
+      "date": "2026-10-28T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-002"
+    },
+    {
+      "id": "p-002-r1",
+      "name": "Sadia Islam",
+      "rating": 5,
+      "text": "I needed a size exchange and they sorted it within 3 days, no hassle. Thanks!",
+      "date": "2026-10-22T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-002"
+    },
+    {
+      "id": "p-002-r2",
+      "name": "Rumana Chowdhury",
+      "rating": 4,
+      "text": "The packaging was lovely, so I gave it as a gift. Good quality.",
+      "date": "2026-10-16T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-002"
+    },
+    {
+      "id": "p-002-r3",
+      "name": "Mitu Begum",
+      "rating": 5,
+      "text": "Bought it for Eid and everyone loved it. Recommended!",
+      "date": "2026-10-10T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-002"
+    },
+    {
+      "id": "p-003-r0",
+      "name": "Sadia Islam",
+      "rating": 5,
+      "text": "I needed a size exchange and they sorted it within 3 days, no hassle. Thanks!",
+      "date": "2026-10-28T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-003"
+    },
+    {
+      "id": "p-003-r1",
+      "name": "Rumana Chowdhury",
+      "rating": 4,
+      "text": "The packaging was lovely, so I gave it as a gift. Good quality.",
+      "date": "2026-10-22T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-003"
+    },
+    {
+      "id": "p-003-r2",
+      "name": "Mitu Begum",
+      "rating": 5,
+      "text": "Bought it for Eid and everyone loved it. Recommended!",
+      "date": "2026-10-16T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-003"
+    },
+    {
+      "id": "p-003-r3",
+      "name": "Nusrat Jahan",
+      "rating": 5,
+      "text": "Exactly like the photos. The fabric quality is very good, and delivery was fast too.",
+      "date": "2026-10-10T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-003"
+    },
+    {
+      "id": "p-004-r0",
+      "name": "Rumana Chowdhury",
+      "rating": 4,
+      "text": "The packaging was lovely, so I gave it as a gift. Good quality.",
+      "date": "2026-10-28T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-004"
+    },
+    {
+      "id": "p-004-r1",
+      "name": "Mitu Begum",
+      "rating": 5,
+      "text": "Bought it for Eid and everyone loved it. Recommended!",
+      "date": "2026-10-22T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-004"
+    },
+    {
+      "id": "p-004-r2",
+      "name": "Nusrat Jahan",
+      "rating": 5,
+      "text": "Exactly like the photos. The fabric quality is very good, and delivery was fast too.",
+      "date": "2026-10-16T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-004"
+    },
+    {
+      "id": "p-004-r3",
+      "name": "Farzana Akter",
+      "rating": 5,
+      "text": "The fit is perfect. With Cash on Delivery I could check it before paying. Will buy again.",
+      "date": "2026-10-10T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-004"
+    },
+    {
+      "id": "p-005-r0",
+      "name": "Mitu Begum",
+      "rating": 5,
+      "text": "Bought it for Eid and everyone loved it. Recommended!",
+      "date": "2026-10-28T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-005"
+    },
+    {
+      "id": "p-005-r1",
+      "name": "Nusrat Jahan",
+      "rating": 5,
+      "text": "Exactly like the photos. The fabric quality is very good, and delivery was fast too.",
+      "date": "2026-10-22T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-005"
+    },
+    {
+      "id": "p-005-r2",
+      "name": "Farzana Akter",
+      "rating": 5,
+      "text": "The fit is perfect. With Cash on Delivery I could check it before paying. Will buy again.",
+      "date": "2026-10-16T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-005"
+    },
+    {
+      "id": "p-005-r3",
+      "name": "Tahmina Rahman",
+      "rating": 4,
+      "text": "The colour is a little lighter than in the photo, but overall it's beautiful. Great value for the price.",
+      "date": "2026-10-10T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-005"
+    },
+    {
+      "id": "p-006-r0",
+      "name": "Nusrat Jahan",
+      "rating": 5,
+      "text": "Exactly like the photos. The fabric quality is very good, and delivery was fast too.",
+      "date": "2026-10-28T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-006"
+    },
+    {
+      "id": "p-006-r1",
+      "name": "Farzana Akter",
+      "rating": 5,
+      "text": "The fit is perfect. With Cash on Delivery I could check it before paying. Will buy again.",
+      "date": "2026-10-22T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-006"
+    },
+    {
+      "id": "p-006-r2",
+      "name": "Tahmina Rahman",
+      "rating": 4,
+      "text": "The colour is a little lighter than in the photo, but overall it's beautiful. Great value for the price.",
+      "date": "2026-10-16T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-006"
+    },
+    {
+      "id": "p-006-r3",
+      "name": "Sadia Islam",
+      "rating": 5,
+      "text": "I needed a size exchange and they sorted it within 3 days, no hassle. Thanks!",
+      "date": "2026-10-10T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-006"
+    },
+    {
+      "id": "p-007-r0",
+      "name": "Farzana Akter",
+      "rating": 5,
+      "text": "The fit is perfect. With Cash on Delivery I could check it before paying. Will buy again.",
+      "date": "2026-10-28T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-007"
+    },
+    {
+      "id": "p-007-r1",
+      "name": "Tahmina Rahman",
+      "rating": 4,
+      "text": "The colour is a little lighter than in the photo, but overall it's beautiful. Great value for the price.",
+      "date": "2026-10-22T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-007"
+    },
+    {
+      "id": "p-007-r2",
+      "name": "Sadia Islam",
+      "rating": 5,
+      "text": "I needed a size exchange and they sorted it within 3 days, no hassle. Thanks!",
+      "date": "2026-10-16T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-007"
+    },
+    {
+      "id": "p-007-r3",
+      "name": "Rumana Chowdhury",
+      "rating": 4,
+      "text": "The packaging was lovely, so I gave it as a gift. Good quality.",
+      "date": "2026-10-10T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-007"
+    },
+    {
+      "id": "p-008-r0",
+      "name": "Tahmina Rahman",
+      "rating": 4,
+      "text": "The colour is a little lighter than in the photo, but overall it's beautiful. Great value for the price.",
+      "date": "2026-10-28T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-008"
+    },
+    {
+      "id": "p-008-r1",
+      "name": "Sadia Islam",
+      "rating": 5,
+      "text": "I needed a size exchange and they sorted it within 3 days, no hassle. Thanks!",
+      "date": "2026-10-22T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-008"
+    },
+    {
+      "id": "p-008-r2",
+      "name": "Rumana Chowdhury",
+      "rating": 4,
+      "text": "The packaging was lovely, so I gave it as a gift. Good quality.",
+      "date": "2026-10-16T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-008"
+    },
+    {
+      "id": "p-008-r3",
+      "name": "Mitu Begum",
+      "rating": 5,
+      "text": "Bought it for Eid and everyone loved it. Recommended!",
+      "date": "2026-10-10T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-008"
+    },
+    {
+      "id": "p-009-r0",
+      "name": "Sadia Islam",
+      "rating": 5,
+      "text": "I needed a size exchange and they sorted it within 3 days, no hassle. Thanks!",
+      "date": "2026-10-28T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-009"
+    },
+    {
+      "id": "p-009-r1",
+      "name": "Rumana Chowdhury",
+      "rating": 4,
+      "text": "The packaging was lovely, so I gave it as a gift. Good quality.",
+      "date": "2026-10-22T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-009"
+    },
+    {
+      "id": "p-009-r2",
+      "name": "Mitu Begum",
+      "rating": 5,
+      "text": "Bought it for Eid and everyone loved it. Recommended!",
+      "date": "2026-10-16T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-009"
+    },
+    {
+      "id": "p-009-r3",
+      "name": "Nusrat Jahan",
+      "rating": 5,
+      "text": "Exactly like the photos. The fabric quality is very good, and delivery was fast too.",
+      "date": "2026-10-10T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-009"
+    },
+    {
+      "id": "p-010-r0",
+      "name": "Rumana Chowdhury",
+      "rating": 4,
+      "text": "The packaging was lovely, so I gave it as a gift. Good quality.",
+      "date": "2026-10-28T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-010"
+    },
+    {
+      "id": "p-010-r1",
+      "name": "Mitu Begum",
+      "rating": 5,
+      "text": "Bought it for Eid and everyone loved it. Recommended!",
+      "date": "2026-10-22T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-010"
+    },
+    {
+      "id": "p-010-r2",
+      "name": "Nusrat Jahan",
+      "rating": 5,
+      "text": "Exactly like the photos. The fabric quality is very good, and delivery was fast too.",
+      "date": "2026-10-16T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-010"
+    },
+    {
+      "id": "p-010-r3",
+      "name": "Farzana Akter",
+      "rating": 5,
+      "text": "The fit is perfect. With Cash on Delivery I could check it before paying. Will buy again.",
+      "date": "2026-10-10T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-010"
+    },
+    {
+      "id": "p-011-r0",
+      "name": "Mitu Begum",
+      "rating": 5,
+      "text": "Bought it for Eid and everyone loved it. Recommended!",
+      "date": "2026-10-28T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-011"
+    },
+    {
+      "id": "p-011-r1",
+      "name": "Nusrat Jahan",
+      "rating": 5,
+      "text": "Exactly like the photos. The fabric quality is very good, and delivery was fast too.",
+      "date": "2026-10-22T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-011"
+    },
+    {
+      "id": "p-011-r2",
+      "name": "Farzana Akter",
+      "rating": 5,
+      "text": "The fit is perfect. With Cash on Delivery I could check it before paying. Will buy again.",
+      "date": "2026-10-16T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-011"
+    },
+    {
+      "id": "p-011-r3",
+      "name": "Tahmina Rahman",
+      "rating": 4,
+      "text": "The colour is a little lighter than in the photo, but overall it's beautiful. Great value for the price.",
+      "date": "2026-10-10T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-011"
+    },
+    {
+      "id": "p-012-r0",
+      "name": "Nusrat Jahan",
+      "rating": 5,
+      "text": "Exactly like the photos. The fabric quality is very good, and delivery was fast too.",
+      "date": "2026-10-28T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-012"
+    },
+    {
+      "id": "p-012-r1",
+      "name": "Farzana Akter",
+      "rating": 5,
+      "text": "The fit is perfect. With Cash on Delivery I could check it before paying. Will buy again.",
+      "date": "2026-10-22T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-012"
+    },
+    {
+      "id": "p-012-r2",
+      "name": "Tahmina Rahman",
+      "rating": 4,
+      "text": "The colour is a little lighter than in the photo, but overall it's beautiful. Great value for the price.",
+      "date": "2026-10-16T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-012"
+    },
+    {
+      "id": "p-012-r3",
+      "name": "Sadia Islam",
+      "rating": 5,
+      "text": "I needed a size exchange and they sorted it within 3 days, no hassle. Thanks!",
+      "date": "2026-10-10T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-012"
+    },
+    {
+      "id": "p-013-r0",
+      "name": "Farzana Akter",
+      "rating": 5,
+      "text": "The fit is perfect. With Cash on Delivery I could check it before paying. Will buy again.",
+      "date": "2026-10-28T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-013"
+    },
+    {
+      "id": "p-013-r1",
+      "name": "Tahmina Rahman",
+      "rating": 4,
+      "text": "The colour is a little lighter than in the photo, but overall it's beautiful. Great value for the price.",
+      "date": "2026-10-22T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-013"
+    },
+    {
+      "id": "p-013-r2",
+      "name": "Sadia Islam",
+      "rating": 5,
+      "text": "I needed a size exchange and they sorted it within 3 days, no hassle. Thanks!",
+      "date": "2026-10-16T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-013"
+    },
+    {
+      "id": "p-013-r3",
+      "name": "Rumana Chowdhury",
+      "rating": 4,
+      "text": "The packaging was lovely, so I gave it as a gift. Good quality.",
+      "date": "2026-10-10T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-013"
+    },
+    {
+      "id": "p-014-r0",
+      "name": "Tahmina Rahman",
+      "rating": 4,
+      "text": "The colour is a little lighter than in the photo, but overall it's beautiful. Great value for the price.",
+      "date": "2026-10-28T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-014"
+    },
+    {
+      "id": "p-014-r1",
+      "name": "Sadia Islam",
+      "rating": 5,
+      "text": "I needed a size exchange and they sorted it within 3 days, no hassle. Thanks!",
+      "date": "2026-10-22T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-014"
+    },
+    {
+      "id": "p-014-r2",
+      "name": "Rumana Chowdhury",
+      "rating": 4,
+      "text": "The packaging was lovely, so I gave it as a gift. Good quality.",
+      "date": "2026-10-16T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-014"
+    },
+    {
+      "id": "p-014-r3",
+      "name": "Mitu Begum",
+      "rating": 5,
+      "text": "Bought it for Eid and everyone loved it. Recommended!",
+      "date": "2026-10-10T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-014"
+    },
+    {
+      "id": "p-015-r0",
+      "name": "Sadia Islam",
+      "rating": 5,
+      "text": "I needed a size exchange and they sorted it within 3 days, no hassle. Thanks!",
+      "date": "2026-10-28T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-015"
+    },
+    {
+      "id": "p-015-r1",
+      "name": "Rumana Chowdhury",
+      "rating": 4,
+      "text": "The packaging was lovely, so I gave it as a gift. Good quality.",
+      "date": "2026-10-22T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-015"
+    },
+    {
+      "id": "p-015-r2",
+      "name": "Mitu Begum",
+      "rating": 5,
+      "text": "Bought it for Eid and everyone loved it. Recommended!",
+      "date": "2026-10-16T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-015"
+    },
+    {
+      "id": "p-015-r3",
+      "name": "Nusrat Jahan",
+      "rating": 5,
+      "text": "Exactly like the photos. The fabric quality is very good, and delivery was fast too.",
+      "date": "2026-10-10T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-015"
+    },
+    {
+      "id": "p-016-r0",
+      "name": "Rumana Chowdhury",
+      "rating": 4,
+      "text": "The packaging was lovely, so I gave it as a gift. Good quality.",
+      "date": "2026-10-28T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-016"
+    },
+    {
+      "id": "p-016-r1",
+      "name": "Mitu Begum",
+      "rating": 5,
+      "text": "Bought it for Eid and everyone loved it. Recommended!",
+      "date": "2026-10-22T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-016"
+    },
+    {
+      "id": "p-016-r2",
+      "name": "Nusrat Jahan",
+      "rating": 5,
+      "text": "Exactly like the photos. The fabric quality is very good, and delivery was fast too.",
+      "date": "2026-10-16T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-016"
+    },
+    {
+      "id": "p-016-r3",
+      "name": "Farzana Akter",
+      "rating": 5,
+      "text": "The fit is perfect. With Cash on Delivery I could check it before paying. Will buy again.",
+      "date": "2026-10-10T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-016"
+    },
+    {
+      "id": "p-017-r0",
+      "name": "Mitu Begum",
+      "rating": 5,
+      "text": "Bought it for Eid and everyone loved it. Recommended!",
+      "date": "2026-10-28T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-017"
+    },
+    {
+      "id": "p-017-r1",
+      "name": "Nusrat Jahan",
+      "rating": 5,
+      "text": "Exactly like the photos. The fabric quality is very good, and delivery was fast too.",
+      "date": "2026-10-22T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-017"
+    },
+    {
+      "id": "p-017-r2",
+      "name": "Farzana Akter",
+      "rating": 5,
+      "text": "The fit is perfect. With Cash on Delivery I could check it before paying. Will buy again.",
+      "date": "2026-10-16T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-017"
+    },
+    {
+      "id": "p-017-r3",
+      "name": "Tahmina Rahman",
+      "rating": 4,
+      "text": "The colour is a little lighter than in the photo, but overall it's beautiful. Great value for the price.",
+      "date": "2026-10-10T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-017"
+    },
+    {
+      "id": "p-018-r0",
+      "name": "Nusrat Jahan",
+      "rating": 5,
+      "text": "Exactly like the photos. The fabric quality is very good, and delivery was fast too.",
+      "date": "2026-10-28T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-018"
+    },
+    {
+      "id": "p-018-r1",
+      "name": "Farzana Akter",
+      "rating": 5,
+      "text": "The fit is perfect. With Cash on Delivery I could check it before paying. Will buy again.",
+      "date": "2026-10-22T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-018"
+    },
+    {
+      "id": "p-018-r2",
+      "name": "Tahmina Rahman",
+      "rating": 4,
+      "text": "The colour is a little lighter than in the photo, but overall it's beautiful. Great value for the price.",
+      "date": "2026-10-16T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-018"
+    },
+    {
+      "id": "p-018-r3",
+      "name": "Sadia Islam",
+      "rating": 5,
+      "text": "I needed a size exchange and they sorted it within 3 days, no hassle. Thanks!",
+      "date": "2026-10-10T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-018"
+    },
+    {
+      "id": "p-019-r0",
+      "name": "Farzana Akter",
+      "rating": 5,
+      "text": "The fit is perfect. With Cash on Delivery I could check it before paying. Will buy again.",
+      "date": "2026-10-28T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-019"
+    },
+    {
+      "id": "p-019-r1",
+      "name": "Tahmina Rahman",
+      "rating": 4,
+      "text": "The colour is a little lighter than in the photo, but overall it's beautiful. Great value for the price.",
+      "date": "2026-10-22T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-019"
+    },
+    {
+      "id": "p-019-r2",
+      "name": "Sadia Islam",
+      "rating": 5,
+      "text": "I needed a size exchange and they sorted it within 3 days, no hassle. Thanks!",
+      "date": "2026-10-16T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-019"
+    },
+    {
+      "id": "p-019-r3",
+      "name": "Rumana Chowdhury",
+      "rating": 4,
+      "text": "The packaging was lovely, so I gave it as a gift. Good quality.",
+      "date": "2026-10-10T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-019"
+    },
+    {
+      "id": "p-020-r0",
+      "name": "Tahmina Rahman",
+      "rating": 4,
+      "text": "The colour is a little lighter than in the photo, but overall it's beautiful. Great value for the price.",
+      "date": "2026-10-28T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-020"
+    },
+    {
+      "id": "p-020-r1",
+      "name": "Sadia Islam",
+      "rating": 5,
+      "text": "I needed a size exchange and they sorted it within 3 days, no hassle. Thanks!",
+      "date": "2026-10-22T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-020"
+    },
+    {
+      "id": "p-020-r2",
+      "name": "Rumana Chowdhury",
+      "rating": 4,
+      "text": "The packaging was lovely, so I gave it as a gift. Good quality.",
+      "date": "2026-10-16T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-020"
+    },
+    {
+      "id": "p-020-r3",
+      "name": "Mitu Begum",
+      "rating": 5,
+      "text": "Bought it for Eid and everyone loved it. Recommended!",
+      "date": "2026-10-10T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-020"
+    },
+    {
+      "id": "p-021-r0",
+      "name": "Sadia Islam",
+      "rating": 5,
+      "text": "I needed a size exchange and they sorted it within 3 days, no hassle. Thanks!",
+      "date": "2026-10-28T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-021"
+    },
+    {
+      "id": "p-021-r1",
+      "name": "Rumana Chowdhury",
+      "rating": 4,
+      "text": "The packaging was lovely, so I gave it as a gift. Good quality.",
+      "date": "2026-10-22T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-021"
+    },
+    {
+      "id": "p-021-r2",
+      "name": "Mitu Begum",
+      "rating": 5,
+      "text": "Bought it for Eid and everyone loved it. Recommended!",
+      "date": "2026-10-16T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-021"
+    },
+    {
+      "id": "p-021-r3",
+      "name": "Nusrat Jahan",
+      "rating": 5,
+      "text": "Exactly like the photos. The fabric quality is very good, and delivery was fast too.",
+      "date": "2026-10-10T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-021"
+    },
+    {
+      "id": "p-022-r0",
+      "name": "Rumana Chowdhury",
+      "rating": 4,
+      "text": "The packaging was lovely, so I gave it as a gift. Good quality.",
+      "date": "2026-10-28T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-022"
+    },
+    {
+      "id": "p-022-r1",
+      "name": "Mitu Begum",
+      "rating": 5,
+      "text": "Bought it for Eid and everyone loved it. Recommended!",
+      "date": "2026-10-22T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-022"
+    },
+    {
+      "id": "p-022-r2",
+      "name": "Nusrat Jahan",
+      "rating": 5,
+      "text": "Exactly like the photos. The fabric quality is very good, and delivery was fast too.",
+      "date": "2026-10-16T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-022"
+    },
+    {
+      "id": "p-022-r3",
+      "name": "Farzana Akter",
+      "rating": 5,
+      "text": "The fit is perfect. With Cash on Delivery I could check it before paying. Will buy again.",
+      "date": "2026-10-10T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-022"
+    },
+    {
+      "id": "p-023-r0",
+      "name": "Mitu Begum",
+      "rating": 5,
+      "text": "Bought it for Eid and everyone loved it. Recommended!",
+      "date": "2026-10-28T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-023"
+    },
+    {
+      "id": "p-023-r1",
+      "name": "Nusrat Jahan",
+      "rating": 5,
+      "text": "Exactly like the photos. The fabric quality is very good, and delivery was fast too.",
+      "date": "2026-10-22T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-023"
+    },
+    {
+      "id": "p-023-r2",
+      "name": "Farzana Akter",
+      "rating": 5,
+      "text": "The fit is perfect. With Cash on Delivery I could check it before paying. Will buy again.",
+      "date": "2026-10-16T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-023"
+    },
+    {
+      "id": "p-023-r3",
+      "name": "Tahmina Rahman",
+      "rating": 4,
+      "text": "The colour is a little lighter than in the photo, but overall it's beautiful. Great value for the price.",
+      "date": "2026-10-10T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-023"
+    },
+    {
+      "id": "p-024-r0",
+      "name": "Nusrat Jahan",
+      "rating": 5,
+      "text": "Exactly like the photos. The fabric quality is very good, and delivery was fast too.",
+      "date": "2026-10-28T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-024"
+    },
+    {
+      "id": "p-024-r1",
+      "name": "Farzana Akter",
+      "rating": 5,
+      "text": "The fit is perfect. With Cash on Delivery I could check it before paying. Will buy again.",
+      "date": "2026-10-22T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-024"
+    },
+    {
+      "id": "p-024-r2",
+      "name": "Tahmina Rahman",
+      "rating": 4,
+      "text": "The colour is a little lighter than in the photo, but overall it's beautiful. Great value for the price.",
+      "date": "2026-10-16T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-024"
+    },
+    {
+      "id": "p-024-r3",
+      "name": "Sadia Islam",
+      "rating": 5,
+      "text": "I needed a size exchange and they sorted it within 3 days, no hassle. Thanks!",
+      "date": "2026-10-10T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-024"
+    },
+    {
+      "id": "p-025-r0",
+      "name": "Farzana Akter",
+      "rating": 5,
+      "text": "The fit is perfect. With Cash on Delivery I could check it before paying. Will buy again.",
+      "date": "2026-10-28T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-025"
+    },
+    {
+      "id": "p-025-r1",
+      "name": "Tahmina Rahman",
+      "rating": 4,
+      "text": "The colour is a little lighter than in the photo, but overall it's beautiful. Great value for the price.",
+      "date": "2026-10-22T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-025"
+    },
+    {
+      "id": "p-025-r2",
+      "name": "Sadia Islam",
+      "rating": 5,
+      "text": "I needed a size exchange and they sorted it within 3 days, no hassle. Thanks!",
+      "date": "2026-10-16T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-025"
+    },
+    {
+      "id": "p-025-r3",
+      "name": "Rumana Chowdhury",
+      "rating": 4,
+      "text": "The packaging was lovely, so I gave it as a gift. Good quality.",
+      "date": "2026-10-10T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-025"
+    },
+    {
+      "id": "p-026-r0",
+      "name": "Tahmina Rahman",
+      "rating": 4,
+      "text": "The colour is a little lighter than in the photo, but overall it's beautiful. Great value for the price.",
+      "date": "2026-10-28T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-026"
+    },
+    {
+      "id": "p-026-r1",
+      "name": "Sadia Islam",
+      "rating": 5,
+      "text": "I needed a size exchange and they sorted it within 3 days, no hassle. Thanks!",
+      "date": "2026-10-22T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-026"
+    },
+    {
+      "id": "p-026-r2",
+      "name": "Rumana Chowdhury",
+      "rating": 4,
+      "text": "The packaging was lovely, so I gave it as a gift. Good quality.",
+      "date": "2026-10-16T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-026"
+    },
+    {
+      "id": "p-026-r3",
+      "name": "Mitu Begum",
+      "rating": 5,
+      "text": "Bought it for Eid and everyone loved it. Recommended!",
+      "date": "2026-10-10T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-026"
+    },
+    {
+      "id": "p-027-r0",
+      "name": "Sadia Islam",
+      "rating": 5,
+      "text": "I needed a size exchange and they sorted it within 3 days, no hassle. Thanks!",
+      "date": "2026-10-28T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-027"
+    },
+    {
+      "id": "p-027-r1",
+      "name": "Rumana Chowdhury",
+      "rating": 4,
+      "text": "The packaging was lovely, so I gave it as a gift. Good quality.",
+      "date": "2026-10-22T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-027"
+    },
+    {
+      "id": "p-027-r2",
+      "name": "Mitu Begum",
+      "rating": 5,
+      "text": "Bought it for Eid and everyone loved it. Recommended!",
+      "date": "2026-10-16T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-027"
+    },
+    {
+      "id": "p-027-r3",
+      "name": "Nusrat Jahan",
+      "rating": 5,
+      "text": "Exactly like the photos. The fabric quality is very good, and delivery was fast too.",
+      "date": "2026-10-10T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-027"
+    },
+    {
+      "id": "p-028-r0",
+      "name": "Rumana Chowdhury",
+      "rating": 4,
+      "text": "The packaging was lovely, so I gave it as a gift. Good quality.",
+      "date": "2026-10-28T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-028"
+    },
+    {
+      "id": "p-028-r1",
+      "name": "Mitu Begum",
+      "rating": 5,
+      "text": "Bought it for Eid and everyone loved it. Recommended!",
+      "date": "2026-10-22T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-028"
+    },
+    {
+      "id": "p-028-r2",
+      "name": "Nusrat Jahan",
+      "rating": 5,
+      "text": "Exactly like the photos. The fabric quality is very good, and delivery was fast too.",
+      "date": "2026-10-16T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-028"
+    },
+    {
+      "id": "p-028-r3",
+      "name": "Farzana Akter",
+      "rating": 5,
+      "text": "The fit is perfect. With Cash on Delivery I could check it before paying. Will buy again.",
+      "date": "2026-10-10T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-028"
+    },
+    {
+      "id": "p-029-r0",
+      "name": "Mitu Begum",
+      "rating": 5,
+      "text": "Bought it for Eid and everyone loved it. Recommended!",
+      "date": "2026-10-28T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-029"
+    },
+    {
+      "id": "p-029-r1",
+      "name": "Nusrat Jahan",
+      "rating": 5,
+      "text": "Exactly like the photos. The fabric quality is very good, and delivery was fast too.",
+      "date": "2026-10-22T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-029"
+    },
+    {
+      "id": "p-029-r2",
+      "name": "Farzana Akter",
+      "rating": 5,
+      "text": "The fit is perfect. With Cash on Delivery I could check it before paying. Will buy again.",
+      "date": "2026-10-16T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-029"
+    },
+    {
+      "id": "p-029-r3",
+      "name": "Tahmina Rahman",
+      "rating": 4,
+      "text": "The colour is a little lighter than in the photo, but overall it's beautiful. Great value for the price.",
+      "date": "2026-10-10T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-029"
+    },
+    {
+      "id": "p-030-r0",
+      "name": "Nusrat Jahan",
+      "rating": 5,
+      "text": "Exactly like the photos. The fabric quality is very good, and delivery was fast too.",
+      "date": "2026-10-28T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-030"
+    },
+    {
+      "id": "p-030-r1",
+      "name": "Farzana Akter",
+      "rating": 5,
+      "text": "The fit is perfect. With Cash on Delivery I could check it before paying. Will buy again.",
+      "date": "2026-10-22T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-030"
+    },
+    {
+      "id": "p-030-r2",
+      "name": "Tahmina Rahman",
+      "rating": 4,
+      "text": "The colour is a little lighter than in the photo, but overall it's beautiful. Great value for the price.",
+      "date": "2026-10-16T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-030"
+    },
+    {
+      "id": "p-030-r3",
+      "name": "Sadia Islam",
+      "rating": 5,
+      "text": "I needed a size exchange and they sorted it within 3 days, no hassle. Thanks!",
+      "date": "2026-10-10T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-030"
+    },
+    {
+      "id": "p-031-r0",
+      "name": "Farzana Akter",
+      "rating": 5,
+      "text": "The fit is perfect. With Cash on Delivery I could check it before paying. Will buy again.",
+      "date": "2026-10-28T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-031"
+    },
+    {
+      "id": "p-031-r1",
+      "name": "Tahmina Rahman",
+      "rating": 4,
+      "text": "The colour is a little lighter than in the photo, but overall it's beautiful. Great value for the price.",
+      "date": "2026-10-22T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-031"
+    },
+    {
+      "id": "p-031-r2",
+      "name": "Sadia Islam",
+      "rating": 5,
+      "text": "I needed a size exchange and they sorted it within 3 days, no hassle. Thanks!",
+      "date": "2026-10-16T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-031"
+    },
+    {
+      "id": "p-031-r3",
+      "name": "Rumana Chowdhury",
+      "rating": 4,
+      "text": "The packaging was lovely, so I gave it as a gift. Good quality.",
+      "date": "2026-10-10T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-031"
+    },
+    {
+      "id": "p-032-r0",
+      "name": "Tahmina Rahman",
+      "rating": 4,
+      "text": "The colour is a little lighter than in the photo, but overall it's beautiful. Great value for the price.",
+      "date": "2026-10-28T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-032"
+    },
+    {
+      "id": "p-032-r1",
+      "name": "Sadia Islam",
+      "rating": 5,
+      "text": "I needed a size exchange and they sorted it within 3 days, no hassle. Thanks!",
+      "date": "2026-10-22T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-032"
+    },
+    {
+      "id": "p-032-r2",
+      "name": "Rumana Chowdhury",
+      "rating": 4,
+      "text": "The packaging was lovely, so I gave it as a gift. Good quality.",
+      "date": "2026-10-16T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-032"
+    },
+    {
+      "id": "p-032-r3",
+      "name": "Mitu Begum",
+      "rating": 5,
+      "text": "Bought it for Eid and everyone loved it. Recommended!",
+      "date": "2026-10-10T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-032"
+    },
+    {
+      "id": "p-033-r0",
+      "name": "Sadia Islam",
+      "rating": 5,
+      "text": "I needed a size exchange and they sorted it within 3 days, no hassle. Thanks!",
+      "date": "2026-10-28T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-033"
+    },
+    {
+      "id": "p-033-r1",
+      "name": "Rumana Chowdhury",
+      "rating": 4,
+      "text": "The packaging was lovely, so I gave it as a gift. Good quality.",
+      "date": "2026-10-22T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-033"
+    },
+    {
+      "id": "p-033-r2",
+      "name": "Mitu Begum",
+      "rating": 5,
+      "text": "Bought it for Eid and everyone loved it. Recommended!",
+      "date": "2026-10-16T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-033"
+    },
+    {
+      "id": "p-033-r3",
+      "name": "Nusrat Jahan",
+      "rating": 5,
+      "text": "Exactly like the photos. The fabric quality is very good, and delivery was fast too.",
+      "date": "2026-10-10T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-033"
+    },
+    {
+      "id": "p-034-r0",
+      "name": "Rumana Chowdhury",
+      "rating": 4,
+      "text": "The packaging was lovely, so I gave it as a gift. Good quality.",
+      "date": "2026-10-28T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-034"
+    },
+    {
+      "id": "p-034-r1",
+      "name": "Mitu Begum",
+      "rating": 5,
+      "text": "Bought it for Eid and everyone loved it. Recommended!",
+      "date": "2026-10-22T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-034"
+    },
+    {
+      "id": "p-034-r2",
+      "name": "Nusrat Jahan",
+      "rating": 5,
+      "text": "Exactly like the photos. The fabric quality is very good, and delivery was fast too.",
+      "date": "2026-10-16T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-034"
+    },
+    {
+      "id": "p-034-r3",
+      "name": "Farzana Akter",
+      "rating": 5,
+      "text": "The fit is perfect. With Cash on Delivery I could check it before paying. Will buy again.",
+      "date": "2026-10-10T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-034"
+    },
+    {
+      "id": "p-035-r0",
+      "name": "Mitu Begum",
+      "rating": 5,
+      "text": "Bought it for Eid and everyone loved it. Recommended!",
+      "date": "2026-10-28T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-035"
+    },
+    {
+      "id": "p-035-r1",
+      "name": "Nusrat Jahan",
+      "rating": 5,
+      "text": "Exactly like the photos. The fabric quality is very good, and delivery was fast too.",
+      "date": "2026-10-22T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-035"
+    },
+    {
+      "id": "p-035-r2",
+      "name": "Farzana Akter",
+      "rating": 5,
+      "text": "The fit is perfect. With Cash on Delivery I could check it before paying. Will buy again.",
+      "date": "2026-10-16T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-035"
+    },
+    {
+      "id": "p-035-r3",
+      "name": "Tahmina Rahman",
+      "rating": 4,
+      "text": "The colour is a little lighter than in the photo, but overall it's beautiful. Great value for the price.",
+      "date": "2026-10-10T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-035"
+    },
+    {
+      "id": "p-036-r0",
+      "name": "Nusrat Jahan",
+      "rating": 5,
+      "text": "Exactly like the photos. The fabric quality is very good, and delivery was fast too.",
+      "date": "2026-10-28T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-036"
+    },
+    {
+      "id": "p-036-r1",
+      "name": "Farzana Akter",
+      "rating": 5,
+      "text": "The fit is perfect. With Cash on Delivery I could check it before paying. Will buy again.",
+      "date": "2026-10-22T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-036"
+    },
+    {
+      "id": "p-036-r2",
+      "name": "Tahmina Rahman",
+      "rating": 4,
+      "text": "The colour is a little lighter than in the photo, but overall it's beautiful. Great value for the price.",
+      "date": "2026-10-16T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-036"
+    },
+    {
+      "id": "p-036-r3",
+      "name": "Sadia Islam",
+      "rating": 5,
+      "text": "I needed a size exchange and they sorted it within 3 days, no hassle. Thanks!",
+      "date": "2026-10-10T00:00:00.000Z",
+      "verified": true,
+      "productId": "p-036"
+    }
+  ]
+}

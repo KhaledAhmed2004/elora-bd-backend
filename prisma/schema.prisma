@@ -1,0 +1,678 @@
+// BD Shop — single-vendor e-commerce (Bangladesh)
+// Money is stored as whole Taka (Int). Phones are stored normalised: 01XXXXXXXXX.
+
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+// ───────────────────────── Staff & auth ─────────────────────────
+
+enum AdminRole {
+  OWNER // everything, incl. staff + settings
+  MANAGER // orders, catalog, reports
+  STAFF // orders + calls only
+}
+
+model AdminUser {
+  id           String        @id @default(cuid())
+  name         String
+  email        String        @unique
+  passwordHash String
+  role         AdminRole     @default(STAFF)
+  active       Boolean       @default(true)
+  lastLoginAt  DateTime?
+  createdAt    DateTime      @default(now())
+  updatedAt    DateTime      @updatedAt
+  activities   ActivityLog[]
+
+  @@map("admin_users")
+}
+
+/// Refresh tokens for admins and customers (only the SHA-256 is stored).
+/// Every rotation of one sign-in shares a familyId; reusing a spent token revokes the family.
+model RefreshToken {
+  /// SHA-256 of the token
+  id              String    @id
+  familyId        String
+  /// "admin:<id>" or "customer:<id>"
+  userId          String
+  claims          Json?
+  createdAt       DateTime
+  expiresAt       DateTime
+  familyExpiresAt DateTime
+  usedAt          DateTime?
+
+  @@index([familyId])
+  @@index([userId])
+  @@index([familyExpiresAt])
+  @@map("refresh_tokens")
+}
+
+model RevokedTokenFamily {
+  familyId        String   @id
+  /// Kept until then; afterwards the family is dead anyway
+  familyExpiresAt DateTime
+  revokedAt       DateTime @default(now())
+
+  @@index([familyExpiresAt])
+  @@map("revoked_token_families")
+}
+
+// ───────────────────────── Customers ─────────────────────────
+
+model Customer {
+  id        String            @id @default(cuid())
+  phone     String            @unique
+  name      String?
+  email     String?
+  tags      String[]          @default([])
+  createdAt DateTime          @default(now())
+  updatedAt DateTime          @updatedAt
+  addresses CustomerAddress[]
+  notes     CustomerNote[]
+  orders    Order[]
+  reviews   Review[]
+  wishlist  WishlistItem[]
+
+  @@map("customers")
+}
+
+model CustomerAddress {
+  id         String   @id @default(cuid())
+  customerId String
+  customer   Customer @relation(fields: [customerId], references: [id], onDelete: Cascade)
+  label      String?
+  fullName   String
+  phone      String
+  division   String
+  district   String
+  upazila    String
+  address    String
+  isDefault  Boolean  @default(false)
+  createdAt  DateTime @default(now())
+
+  @@index([customerId])
+  @@map("customer_addresses")
+}
+
+model CustomerNote {
+  id         String   @id @default(cuid())
+  customerId String
+  customer   Customer @relation(fields: [customerId], references: [id], onDelete: Cascade)
+  text       String
+  authorName String
+  createdAt  DateTime @default(now())
+
+  @@index([customerId])
+  @@map("customer_notes")
+}
+
+/// Phone OTP login. Only a hash of the code is stored.
+model OtpCode {
+  id         String    @id @default(cuid())
+  phone      String
+  codeHash   String
+  attempts   Int       @default(0)
+  expiresAt  DateTime
+  consumedAt DateTime?
+  createdAt  DateTime  @default(now())
+
+  @@index([phone, createdAt])
+  @@map("otp_codes")
+}
+
+model WishlistItem {
+  customerId String
+  customer   Customer @relation(fields: [customerId], references: [id], onDelete: Cascade)
+  productId  String
+  product    Product  @relation(fields: [productId], references: [id], onDelete: Cascade)
+  createdAt  DateTime @default(now())
+
+  @@id([customerId, productId])
+  @@map("wishlist_items")
+}
+
+model Blacklist {
+  phone     String   @id
+  reason    String
+  createdBy String?
+  createdAt DateTime @default(now())
+
+  @@map("blacklist")
+}
+
+// ───────────────────────── Catalog ─────────────────────────
+
+model Category {
+  id        String     @id @default(cuid())
+  name      String
+  slug      String     @unique
+  image     String?
+  sortOrder Int        @default(0)
+  active    Boolean    @default(true)
+  parentId  String?
+  parent    Category?  @relation("CategoryTree", fields: [parentId], references: [id], onDelete: SetNull)
+  children  Category[] @relation("CategoryTree")
+  products  Product[]
+  createdAt DateTime   @default(now())
+  updatedAt DateTime   @updatedAt
+
+  @@index([parentId])
+  @@map("categories")
+}
+
+model Brand {
+  id       String    @id @default(cuid())
+  name     String
+  slug     String    @unique
+  logo     String?
+  products Product[]
+
+  @@map("brands")
+}
+
+enum ProductStatus {
+  ACTIVE // listed in the shop
+  HIDDEN // only reachable by direct link
+  DRAFT // not visible to customers
+}
+
+model Product {
+  id               String           @id @default(cuid())
+  name             String
+  slug             String           @unique
+  description      String
+  shortDescription String?
+  /// Selling price (Taka)
+  price            Int
+  /// Original price shown struck through
+  comparePrice     Int?
+  /// Purchase cost — admin only, used for profit
+  costPrice        Int?
+  /// Total stock (sum of variants when the product has variants)
+  stock            Int              @default(0)
+  status           ProductStatus    @default(ACTIVE)
+  isFeatured       Boolean          @default(false)
+  isNew            Boolean          @default(false)
+  metaTitle        String?
+  metaDescription  String?
+  ratingAvg        Float            @default(0)
+  reviewCount      Int              @default(0)
+  soldCount        Int              @default(0)
+  categoryId       String
+  category         Category         @relation(fields: [categoryId], references: [id], onDelete: Restrict)
+  brandId          String?
+  brand            Brand?           @relation(fields: [brandId], references: [id], onDelete: SetNull)
+  images           ProductImage[]
+  variants         ProductVariant[]
+  reviews          Review[]
+  wishlistedBy     WishlistItem[]
+  createdAt        DateTime         @default(now())
+  updatedAt        DateTime         @updatedAt
+
+  @@index([categoryId, status])
+  @@index([status, createdAt])
+  @@map("products")
+}
+
+model ProductImage {
+  id        String  @id @default(cuid())
+  productId String
+  product   Product @relation(fields: [productId], references: [id], onDelete: Cascade)
+  url       String
+  alt       String?
+  sortOrder Int     @default(0)
+
+  @@index([productId])
+  @@map("product_images")
+}
+
+/// One row per colour × size combination
+model ProductVariant {
+  id           String  @id @default(cuid())
+  productId    String
+  product      Product @relation(fields: [productId], references: [id], onDelete: Cascade)
+  sku          String  @unique
+  color        String?
+  size         String?
+  /// Null = use the product price
+  price        Int?
+  comparePrice Int?
+  stock        Int     @default(0)
+  sortOrder    Int     @default(0)
+
+  @@index([productId])
+  @@map("product_variants")
+}
+
+enum ReviewStatus {
+  PENDING
+  APPROVED
+  HIDDEN
+}
+
+model Review {
+  id         String       @id @default(cuid())
+  productId  String
+  product    Product      @relation(fields: [productId], references: [id], onDelete: Cascade)
+  customerId String?
+  customer   Customer?    @relation(fields: [customerId], references: [id], onDelete: SetNull)
+  name       String
+  phone      String?
+  rating     Int
+  text       String
+  status     ReviewStatus @default(PENDING)
+  /// Has a delivered order containing this product
+  verified   Boolean      @default(false)
+  reply      String?
+  createdAt  DateTime     @default(now())
+  updatedAt  DateTime     @updatedAt
+
+  @@index([productId, status])
+  @@index([status, createdAt])
+  @@map("reviews")
+}
+
+// ───────────────────────── Marketing content ─────────────────────────
+
+model Banner {
+  id        String   @id @default(cuid())
+  title     String
+  subtitle  String?
+  cta       String?
+  href      String?
+  image     String
+  active    Boolean  @default(true)
+  sortOrder Int      @default(0)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@map("banners")
+}
+
+enum CouponType {
+  PERCENT
+  FIXED
+  FREE_SHIPPING
+}
+
+model Coupon {
+  code        String     @id
+  description String
+  type        CouponType
+  value       Int        @default(0)
+  minSubtotal Int?
+  maxDiscount Int?
+  /// Total uses allowed (null = unlimited)
+  usageLimit  Int?
+  usedCount   Int        @default(0)
+  active      Boolean    @default(true)
+  expiresAt   DateTime?
+  createdAt   DateTime   @default(now())
+  updatedAt   DateTime   @updatedAt
+
+  @@map("coupons")
+}
+
+// ───────────────────────── Orders ─────────────────────────
+
+enum OrderStatus {
+  PENDING
+  CONFIRMED
+  PROCESSING
+  SHIPPED
+  DELIVERED
+  CANCELLED
+  RETURNED
+}
+
+enum PaymentMethod {
+  COD
+  BKASH
+  NAGAD
+  SSLCOMMERZ
+}
+
+enum PaymentStatus {
+  UNPAID
+  PAID
+  REFUNDED
+}
+
+enum OrderSource {
+  WEBSITE
+  FACEBOOK
+  WHATSAPP
+  PHONE
+  INSTAGRAM
+}
+
+enum CallResult {
+  CONFIRMED
+  NO_ANSWER
+  BUSY
+  CALLBACK
+  CANCELLED
+}
+
+model Order {
+  id            String        @id @default(cuid())
+  orderNumber   String        @unique
+  customerId    String?
+  customer      Customer?     @relation(fields: [customerId], references: [id], onDelete: SetNull)
+  status        OrderStatus   @default(PENDING)
+  source        OrderSource   @default(WEBSITE)
+  paymentMethod PaymentMethod
+  paymentStatus PaymentStatus @default(UNPAID)
+
+  // Shipping address (snapshot at order time)
+  shipName  String
+  shipPhone String
+  division  String
+  district  String
+  upazila   String
+  address   String
+
+  subtotal       Int
+  deliveryCharge Int
+  discount       Int     @default(0)
+  total          Int
+  couponCode     String?
+
+  note          String?
+  adminNote     String?
+  cancelReason  String?
+  /// True while the items are taken out of stock
+  stockDeducted Boolean @default(false)
+
+  // Advance payment (bKash / Nagad Send Money, verified manually)
+  advanceAmount   Int?
+  advanceMethod   PaymentMethod?
+  advanceTrxId    String?
+  advanceSender   String?
+  advanceVerified Boolean        @default(false)
+
+  // Courier
+  courierName      String?
+  trackingId       String?
+  courierConsignId String?
+  /// What the courier charges the shop for this parcel
+  courierCharge    Int?
+  codSettled       Boolean   @default(false)
+  settledAt        DateTime?
+
+  // Refund
+  refundAmount Int?
+  refundMethod String?
+  refundedAt   DateTime?
+
+  items     OrderItem[]
+  history   OrderStatusHistory[]
+  calls     OrderCall[]
+  createdAt DateTime             @default(now())
+  updatedAt DateTime             @updatedAt
+
+  @@index([status, createdAt])
+  @@index([shipPhone])
+  @@index([createdAt])
+  @@map("orders")
+}
+
+model OrderItem {
+  id        String  @id @default(cuid())
+  orderId   String
+  order     Order   @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  /// Kept as plain ids so deleting a product never deletes order history
+  productId String?
+  variantId String?
+  name      String
+  image     String?
+  color     String?
+  size      String?
+  price     Int
+  quantity  Int
+  /// Cost per unit at order time (profit reports)
+  costPrice Int?
+
+  @@index([orderId])
+  @@index([productId])
+  @@map("order_items")
+}
+
+model OrderStatusHistory {
+  id        String      @id @default(cuid())
+  orderId   String
+  order     Order       @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  status    OrderStatus
+  note      String?
+  actorName String?
+  createdAt DateTime    @default(now())
+
+  @@index([orderId])
+  @@map("order_status_history")
+}
+
+model OrderCall {
+  id        String     @id @default(cuid())
+  orderId   String
+  order     Order      @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  result    CallResult
+  note      String?
+  actorName String?
+  createdAt DateTime   @default(now())
+
+  @@index([orderId])
+  @@map("order_calls")
+}
+
+enum LeadStatus {
+  OPEN
+  CALLED
+  CONVERTED
+  DISMISSED
+}
+
+/// Checkout started (valid phone typed) but no order placed
+model IncompleteOrder {
+  id        String     @id @default(cuid())
+  phone     String
+  fullName  String?
+  division  String?
+  district  String?
+  upazila   String?
+  address   String?
+  /// Cart snapshot: [{ productId, variantId, name, image, price, quantity, color, size }]
+  items     Json
+  subtotal  Int
+  status    LeadStatus @default(OPEN)
+  orderId   String?
+  notes     LeadNote[]
+  createdAt DateTime   @default(now())
+  updatedAt DateTime   @updatedAt
+
+  @@index([phone, status])
+  @@index([status, updatedAt])
+  @@map("incomplete_orders")
+}
+
+model LeadNote {
+  id        String          @id @default(cuid())
+  leadId    String
+  lead      IncompleteOrder @relation(fields: [leadId], references: [id], onDelete: Cascade)
+  note      String
+  actorName String?
+  createdAt DateTime        @default(now())
+
+  @@index([leadId])
+  @@map("lead_notes")
+}
+
+// ───────────────────────── Accounts & stock ─────────────────────────
+
+model Expense {
+  id        String   @id @default(cuid())
+  date      DateTime @db.Date
+  category  String
+  amount    Int
+  note      String?
+  createdAt DateTime @default(now())
+
+  @@index([date])
+  @@map("expenses")
+}
+
+model Supplier {
+  id        String            @id @default(cuid())
+  name      String
+  phone     String?
+  address   String?
+  note      String?
+  purchases Purchase[]
+  payments  SupplierPayment[]
+  createdAt DateTime          @default(now())
+
+  @@map("suppliers")
+}
+
+model Purchase {
+  id         String         @id @default(cuid())
+  date       DateTime       @db.Date
+  supplierId String
+  supplier   Supplier       @relation(fields: [supplierId], references: [id], onDelete: Restrict)
+  total      Int
+  /// Paid at purchase time
+  paid       Int            @default(0)
+  note       String?
+  lines      PurchaseLine[]
+  createdAt  DateTime       @default(now())
+
+  @@index([supplierId])
+  @@index([date])
+  @@map("purchases")
+}
+
+model PurchaseLine {
+  id         String   @id @default(cuid())
+  purchaseId String
+  purchase   Purchase @relation(fields: [purchaseId], references: [id], onDelete: Cascade)
+  productId  String
+  variantId  String?
+  name       String
+  variant    String?
+  quantity   Int
+  unitCost   Int
+
+  @@index([purchaseId])
+  @@map("purchase_lines")
+}
+
+model SupplierPayment {
+  id         String   @id @default(cuid())
+  supplierId String
+  supplier   Supplier @relation(fields: [supplierId], references: [id], onDelete: Cascade)
+  date       DateTime @db.Date
+  amount     Int
+  note       String?
+  createdAt  DateTime @default(now())
+
+  @@index([supplierId])
+  @@map("supplier_payments")
+}
+
+// ───────────────────────── System ─────────────────────────
+
+/// Key/value settings. key "store" holds the shop settings JSON.
+model Setting {
+  key       String   @id
+  value     Json
+  updatedAt DateTime @updatedAt
+
+  @@map("settings")
+}
+
+model ActivityLog {
+  id        String     @id @default(cuid())
+  adminId   String?
+  admin     AdminUser? @relation(fields: [adminId], references: [id], onDelete: SetNull)
+  actorName String
+  action    String
+  message   String
+  href      String?
+  createdAt DateTime   @default(now())
+
+  @@index([createdAt])
+  @@index([action])
+  @@map("activity_logs")
+}
+
+// ───────── Campaign popups (sale / announcement modal on the storefront) ─────────
+
+enum PopupLayout {
+  IMAGE // the whole creative is one image (designer-made banner)
+  SPLIT // image + text side by side
+  TEXT // text only on the brand background
+}
+
+enum PopupTrigger {
+  ON_LOAD
+  DELAY
+  SCROLL
+  EXIT_INTENT
+}
+
+enum PopupFrequency {
+  ONCE // never again after it was shown
+  DAILY // at most once every 24h
+  SESSION // once per browser session
+  ALWAYS // every page load (testing only)
+}
+
+enum PopupPages {
+  ALL
+  HOME
+  SHOPPING // product listing, category, search and product pages
+}
+
+enum PopupDevice {
+  ALL
+  MOBILE
+  DESKTOP
+}
+
+model Popup {
+  id            String         @id @default(cuid())
+  /// Internal name, admins only
+  name          String
+  badge         String?
+  title         String
+  subtitle      String?
+  image         String?
+  cta           String?
+  href          String?
+  couponCode    String?
+  layout        PopupLayout    @default(SPLIT)
+  trigger       PopupTrigger   @default(DELAY)
+  delaySeconds  Int            @default(5)
+  scrollPercent Int            @default(40)
+  frequency     PopupFrequency @default(DAILY)
+  pages         PopupPages     @default(ALL)
+  device        PopupDevice    @default(ALL)
+  startsAt      DateTime?
+  endsAt        DateTime?
+  showCountdown Boolean        @default(false)
+  active        Boolean        @default(true)
+  /// Lower shows first when several popups match
+  priority      Int            @default(0)
+  views         Int            @default(0)
+  clicks        Int            @default(0)
+  createdAt     DateTime       @default(now())
+  updatedAt     DateTime       @updatedAt
+
+  @@index([active, endsAt])
+  @@map("popups")
+}
